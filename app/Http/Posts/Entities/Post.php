@@ -35,7 +35,7 @@ class Post
             $postObject->status = $post->get('status');
             $postObject->date = $post->get('date');
             $postObject->tags = $post->get('tags');
-            $postObject->content = $post->getHtmlContent();
+            $postObject->content = $this->replaceCodeParts($post);
             $postCollection->put($i, $postObject);
         }
 
@@ -55,5 +55,13 @@ class Post
         }
 
         return App::abort('404');
+    }
+
+    private function replaceCodeParts($post)
+    {
+        $pattern = '/(`){3}\ +(\w+)/';
+        $replacement = '<pre><code class="language-$2">';
+        $cleanedPost = preg_replace($pattern, $replacement, $post->getContent());
+        return str_replace('```', '</code></pre>', $cleanedPost);
     }
 }

@@ -12,7 +12,7 @@
             <ul class="nav navbar-nav">
                 <li class="{{ Request::is('/') ? 'active' : ''}}"><a href="{{ URL::to('/'); }}">Home</a></li>
                 <li class="{{ Request::is('about') ? 'active' : ''}}"><a href="#">About</a></li>
-                <li class="{{ Request::is('posts*') ? 'active' : ''}}"><a href="{{ URL::route('blog.index'); }}">Blog</a></li>
+                <li class="{{ Request::is('blog*') ? 'active' : ''}}"><a href="{{ URL::route('blog.index'); }}">Blog</a></li>
                 <li class="{{ Request::is('projects') ? 'active' : ''}}"><a href="#">Projects</a></li>
             </ul>
         </div>

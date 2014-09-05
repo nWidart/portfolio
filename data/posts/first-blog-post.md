@@ -4,6 +4,13 @@ status: published
 date: 28 July 2013 9AM
 tags: github, open-source, documentation
 -------
+``` php
+private function replaceCodeParts($post)
+{
+    $pattern = '/(`){3}\ +(\w+)/';
+}
+```
+
 A couple of weeks ago [Github released a new feature](https://github.com/blog/1547-release-your-software) called *Releases* which allows you to track a project's history and easily add a changelog and manage your project's binary assets. I'm very excited about this because we finally got a place where we have a good overview of each released version of our projects.<!--more-->
 
 However, there's something that still bothers me. It's tightly coupled into Github which only allows us to enter the information into Github's Releases system. We can't transfer the data together with our Github repo if we decide to move the project from Github. We also can't versionize or collaborate on the changelogs through Pull Requests.
@@ -16,7 +23,9 @@ The same idea could be applied to the Releases feature. Changelog information co
 
 Let's see how such a file could look like. I'm using the example from [the Github blog post](https://github.com/blog/1547-release-your-software).
 
-~~~ .JSON
+<pre><code class="language-css">p { color: red }</code></pre>
+
+``` javascript
 {
     "0.17.2": [
         "Use the git author as the TFS commiter during `git tfs rcheckin` (#336) and `git tfs rcheckin --quick` (#357)",
@@ -29,7 +38,7 @@ Let's see how such a file could look like. I'm using the example from [the Githu
         "Improved release process (#333, #340)"
     ]
 }
-~~~
+```
 
 Github automatically creates releases based on tags in your project. While it's not a problem that some things like binaries or indicating pre-leases aren't included, keeping the list of actual changes in the `changelog.json` file is a good way to keep track of changes throughout your project and ship it together with your project.
 

@@ -1,4 +1,13 @@
 @import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
+/* Homepage */
+.rounded {
+  border-radius: 100px;
+  margin-top: 40px;
+}
+.jumbotron {
+  background: #ffffff;
+  padding: 20px 30px;
+}
 /* Posts page */
 ul {
   list-style: none;
@@ -220,4 +229,7 @@ footer {
 footer li {
   padding-right: 20px;
   float: left;
+}
+footer li.active a {
+  color: #2c3e50;
 }
