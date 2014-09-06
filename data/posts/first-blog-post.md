@@ -4,12 +4,42 @@ status: published
 date: 28 July 2013 9AM
 tags: github, open-source, documentation
 -------
-``` php
+```  {.language-php}
 private function replaceCodeParts($post)
 {
     $pattern = '/(`){3}\ +(\w+)/';
 }
 ```
+
+## This is a quote, h2
+
+## The Site ##    {.main}
+
+*[HTML]: Hyper Text Markup Language
+
+The HTML specification
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+>
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+### h3 title
+
+1.  List item
+
+    Not an indented code block, but a second paragraph
+    in the list item
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+
 
 A couple of weeks ago [Github released a new feature](https://github.com/blog/1547-release-your-software) called *Releases* which allows you to track a project's history and easily add a changelog and manage your project's binary assets. I'm very excited about this because we finally got a place where we have a good overview of each released version of our projects.<!--more-->
 
@@ -25,7 +55,7 @@ Let's see how such a file could look like. I'm using the example from [the Githu
 
 <pre><code class="language-css">p { color: red }</code></pre>
 
-``` javascript
+``` {.language-javascript}
 {
     "0.17.2": [
         "Use the git author as the TFS commiter during `git tfs rcheckin` (#336) and `git tfs rcheckin --quick` (#357)",
