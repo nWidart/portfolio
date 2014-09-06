@@ -6,7 +6,8 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.3.*",
-        "daylerees/kurenai": "1.0.*"
+        "daylerees/kurenai": "1.0.*",
+        "michelf/php-markdown": "1.*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

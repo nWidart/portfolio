@@ -19,6 +19,9 @@ ul li .date {
   color: #b4bcc2;
   width: 130px;
 }
+.container pre[class*='language-'] > code[data-language] {
+  overflow: auto;
+}
 body {
   background: #ecf0f1;
   padding-top: 80px;

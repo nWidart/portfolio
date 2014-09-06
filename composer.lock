@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f0e473c43b7df915b5b50a068de8c72",
+    "hash": "668e429e1d9778880b6b97770964a6e8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -451,12 +451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "75c2ac66e3bd4d4a17a7fba2294551f84a77f27a"
+                "reference": "ca9b058641a30e258633c63fbf8b5a434d2a6bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/75c2ac66e3bd4d4a17a7fba2294551f84a77f27a",
-                "reference": "75c2ac66e3bd4d4a17a7fba2294551f84a77f27a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ca9b058641a30e258633c63fbf8b5a434d2a6bc3",
+                "reference": "ca9b058641a30e258633c63fbf8b5a434d2a6bc3",
                 "shasum": ""
             },
             "require": {
@@ -521,7 +521,58 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-09-05 09:39:49"
+            "time": "2014-09-05 13:32:11"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "dev-lib",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694",
+                "reference": "a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2014-08-10 19:25:52"
         },
         {
             "name": "monolog/monolog",
@@ -1672,12 +1723,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "bdab9642c2f131c12a824803656fcbbbe065e284"
+                "reference": "79decb2f56d3277efe28dfe251077b56d088d937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/bdab9642c2f131c12a824803656fcbbbe065e284",
-                "reference": "bdab9642c2f131c12a824803656fcbbbe065e284",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/79decb2f56d3277efe28dfe251077b56d088d937",
+                "reference": "79decb2f56d3277efe28dfe251077b56d088d937",
                 "shasum": ""
             },
             "require": {
@@ -1718,7 +1769,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-09-03 09:12:11"
+            "time": "2014-09-05 11:44:55"
         }
     ],
     "packages-dev": [
@@ -1728,12 +1779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/daylerees/anbu.git",
-                "reference": "983ccad585e4e86b2fd008fccf01abf46b64c5e8"
+                "reference": "31ff3f29df6f724e94f8f5ceb053df2955d4c715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/daylerees/anbu/zipball/983ccad585e4e86b2fd008fccf01abf46b64c5e8",
-                "reference": "983ccad585e4e86b2fd008fccf01abf46b64c5e8",
+                "url": "https://api.github.com/repos/daylerees/anbu/zipball/31ff3f29df6f724e94f8f5ceb053df2955d4c715",
+                "reference": "31ff3f29df6f724e94f8f5ceb053df2955d4c715",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1821,7 @@
                 "laravel",
                 "profiler"
             ],
-            "time": "2014-09-05 08:53:00"
+            "time": "2014-09-05 21:58:21"
         },
         {
             "name": "doctrine/instantiator",
