@@ -5,6 +5,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Kurenai\DocumentParser;
 use stdClass;
+use Michelf\Markdown;
 
 class Post
 {
@@ -59,9 +60,14 @@ class Post
 
     private function replaceCodeParts($post)
     {
+        // replace the first ``` php part
         $pattern = '/(`){3}\ +(\w+)/';
         $replacement = '<pre><code class="language-$2">';
         $cleanedPost = preg_replace($pattern, $replacement, $post->getContent());
-        return str_replace('```', '</code></pre>', $cleanedPost);
+
+        // replace the end of the code section
+        $cleanedPost = str_replace('```', '</code></pre>', $cleanedPost);
+
+        return Markdown::defaultTransform($cleanedPost);
     }
 }
