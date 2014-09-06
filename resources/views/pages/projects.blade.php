@@ -29,4 +29,6 @@ Projects | @parent
         Laravel-forecast provides a service provider and a facade arround the Forecast-php wrapper.
     </li>
 </ul>
+
+<a href="https://github.com/nWidart" target="_blank" class="btn btn-primary">View all my projects on GitHub</a>
 @stop
