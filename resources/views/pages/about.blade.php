@@ -8,7 +8,7 @@ About | @parent
 <div class="row">
     <div class="col-md-12">
         <h1>About me</h1>
-        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=150" alt="" class="img-circle pull-right"/>
+        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="" class="img-circle pull-right"/>
         <p>
         I'm <strong>PHP developer</strong> <br/>
         I'm a <strong>Laravel</strong> evangelist <br/>
