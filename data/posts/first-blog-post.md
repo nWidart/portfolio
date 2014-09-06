@@ -1,7 +1,7 @@
 title: About Github's New Releases Feature
 slug: about-githubs-new-releases-feature
 status: published
-date: 28 July 2013 9AM
+date: 28 July 2013
 tags: github, open-source, documentation
 
 -------
