@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('title')
+Blog | @parent
+@stop
+
 @section('content')
 <ul>
     <?php foreach($posts as $post): ?>

@@ -2,25 +2,14 @@
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Routing\Controller;
+use Nwidart\Http\Posts\Repositories\PostRepository;
 
-class HomeController extends Controller {
+class HomeController extends Controller
+{
+    public function index(PostRepository $post)
+    {
+        $posts = $post->latest();
 
-	/*
-	|--------------------------------------------------------------------------
-	| Default Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| You may wish to use controllers instead of, or in addition to, Closure
-	| based routes. That's great! Here is an example controller method to
-	| get you started. To route to this controller, just add the route:
-	|
-	|	Route::get('/', 'HomeController@index');
-	|
-	*/
-
-	public function index()
-	{
-		return view('hello');
-	}
-
+        return view('hello', compact('posts'));
+    }
 }

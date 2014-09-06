@@ -58,6 +58,13 @@ class Post
         return App::abort('404');
     }
 
+    public function latest($amount = 5)
+    {
+        $posts = $this->all();
+
+        return $posts->take($amount);
+    }
+
     private function replaceCodeParts($post)
     {
         return MarkdownExtra::defaultTransform($post->getContent());

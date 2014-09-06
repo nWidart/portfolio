@@ -21,4 +21,14 @@ class FilePostRepository implements PostRepository
     {
         return $this->post->findBySlug($slug);
     }
+
+    /**
+     * Find the latest blog posts
+     * @param int $amount
+     * @return mixed
+     */
+    public function latest($amount = 5)
+    {
+        return $this->post->latest($amount);
+    }
 }

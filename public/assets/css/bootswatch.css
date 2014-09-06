@@ -2,6 +2,8 @@
 /* Homepage */
 .rounded {
   border-radius: 100px;
+}
+img.pull-top {
   margin-top: 40px;
 }
 .jumbotron {
@@ -18,6 +20,9 @@ ul li .date {
   line-height: 3rem;
   color: #b4bcc2;
   width: 130px;
+}
+ul.bullet li {
+  list-style: disc;
 }
 .container pre[class*='language-'] > code[data-language] {
   overflow: auto;
@@ -236,7 +241,7 @@ input:focus {
 footer {
   border-top: 1px solid #ccc;
   margin-top: 5rem;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 footer li {
   padding-right: 20px;
