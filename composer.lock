@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "668e429e1d9778880b6b97770964a6e8",
+    "hash": "2fa1771c5637d12905728e50f09e454f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -451,12 +451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "ca9b058641a30e258633c63fbf8b5a434d2a6bc3"
+                "reference": "337da707a14332ec2d6f74b33b24d7edbc097479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ca9b058641a30e258633c63fbf8b5a434d2a6bc3",
-                "reference": "ca9b058641a30e258633c63fbf8b5a434d2a6bc3",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/337da707a14332ec2d6f74b33b24d7edbc097479",
+                "reference": "337da707a14332ec2d6f74b33b24d7edbc097479",
                 "shasum": ""
             },
             "require": {
@@ -466,6 +466,7 @@
                 "aws/aws-sdk-php": "~2.4",
                 "barracuda/copy": "~1.1.4",
                 "dropbox/dropbox-sdk": "~1.1.1",
+                "guzzlehttp/guzzle": "~4.0",
                 "league/event": "~0.3",
                 "league/phpunit-coverage-listener": "~1.1",
                 "mockery/mockery": "~0.9@dev",
@@ -480,6 +481,7 @@
                 "aws/aws-sdk-php": "Allows you to use AWS S3 storage",
                 "barracuda/copy": "Allows you to use Copy.com storage",
                 "dropbox/dropbox-sdk": "Allows you to use Dropbox storage",
+                "guzzlehttp/guzzle": "Allows you to use http files (reading only)",
                 "league/event": "Required for EventableFilesystem",
                 "phpseclib/phpseclib": "Allows SFTP server storage",
                 "predis/predis": "Allows you to use Predis for caching",
@@ -521,7 +523,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-09-05 13:32:11"
+            "time": "2014-09-06 11:19:08"
         },
         {
             "name": "michelf/php-markdown",
@@ -1774,56 +1776,6 @@
     ],
     "packages-dev": [
         {
-            "name": "daylerees/anbu",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/daylerees/anbu.git",
-                "reference": "31ff3f29df6f724e94f8f5ceb053df2955d4c715"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/daylerees/anbu/zipball/31ff3f29df6f724e94f8f5ceb053df2955d4c715",
-                "reference": "31ff3f29df6f724e94f8f5ceb053df2955d4c715",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "~4.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9.1",
-                "phpunit/phpunit": "~4.2.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Anbu\\": "src"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dayle Rees",
-                    "email": "me@daylerees.com",
-                    "homepage": "http://daylerees.com"
-                }
-            ],
-            "description": "The Anbu profiler for Laravel 4.",
-            "keywords": [
-                "anbu",
-                "debug",
-                "laravel",
-                "profiler"
-            ],
-            "time": "2014-09-05 21:58:21"
-        },
-        {
             "name": "doctrine/instantiator",
             "version": "dev-master",
             "source": {
@@ -2567,9 +2519,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "daylerees/anbu": 20
-    },
+    "stability-flags": [
+
+    ],
     "prefer-stable": false,
     "platform": [
 

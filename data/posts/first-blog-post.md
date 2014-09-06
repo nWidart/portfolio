@@ -3,6 +3,7 @@ slug: about-githubs-new-releases-feature
 status: published
 date: 28 July 2013 9AM
 tags: github, open-source, documentation
+
 -------
 ```  {.language-php}
 private function replaceCodeParts($post)

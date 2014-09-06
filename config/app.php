@@ -107,7 +107,6 @@ return [
 		'Nwidart\Providers\StorageServiceProvider',
 
         /* Packages */
-        'Anbu\ProfilerServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
