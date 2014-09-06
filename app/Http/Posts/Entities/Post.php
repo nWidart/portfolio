@@ -3,6 +3,7 @@
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Cache;
 use Kurenai\DocumentParser;
 use Illuminate\Filesystem\Filesystem as FileSys;
 use stdClass;
@@ -30,7 +31,11 @@ class Post
         $parser = new DocumentParser;
         foreach ($this->finder->allFiles('posts') as $i => $file) {
             if ($this->isMarkdownFile($file)) {
-                $post = $parser->parse($this->finder->get($file));
+                if (! Cache::has("blog-post-{$file}")) {
+                    $post = $parser->parse($this->finder->get($file));
+                   Cache::put("blog-post-{$file}", $post, 1440);
+                }
+                $post = Cache::get("blog-post-{$file}");
                 $postObject = new stdClass;
                 $postObject->title = $post->get('title');
                 $postObject->slug = $post->get('slug');
