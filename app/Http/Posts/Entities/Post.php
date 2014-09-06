@@ -10,12 +10,6 @@ use Michelf\MarkdownExtra;
 
 class Post
 {
-    public $title;
-    public $slug;
-    public $status;
-    public $date;
-    public $tags;
-    public $content;
     /**
      * @var Filesystem
      */
