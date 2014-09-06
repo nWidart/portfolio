@@ -20,6 +20,7 @@ ul li .date {
   line-height: 3rem;
   color: #b4bcc2;
   width: 130px;
+  text-align: right;
 }
 ul.bullet li {
   list-style: disc;
