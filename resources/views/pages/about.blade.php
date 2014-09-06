@@ -48,4 +48,20 @@ About | @parent
 
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Download</h2>
+        <ul>
+            <li>
+                <a href="{{ asset('cv/Nicolas Widart CV_EN.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
+            </li>
+            <li>
+                <a href="{{ asset('cv/Nicolas Widart CV_FR.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in French</a>
+            </li>
+            <li>
+                <a href="{{ asset('cv/Nicolas Widart CV_NL.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in Dutch</a>
+            </li>
+        </ul>
+    </div>
+</div>
 @stop
