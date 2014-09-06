@@ -28,14 +28,9 @@ class Post
     public function all()
     {
         $postCollection = new Collection;
-        $parser = new DocumentParser;
         foreach ($this->finder->allFiles('posts') as $i => $file) {
             if ($this->isMarkdownFile($file)) {
-                if (! Cache::has("blog-post-{$file}")) {
-                    $post = $parser->parse($this->finder->get($file));
-                   Cache::put("blog-post-{$file}", $post, 1440);
-                }
-                $post = Cache::get("blog-post-{$file}");
+                $post = $this->getPostContent($file);
                 $postObject = new stdClass;
                 $postObject->title = $post->get('title');
                 $postObject->slug = $post->get('slug');
@@ -80,5 +75,20 @@ class Post
     private function isMarkdownFile($file)
     {
         return $this->fileSys->extension($file) === 'md';
+    }
+
+    /**
+     * @param $file
+     * @return mixed
+     */
+    private function getPostContent($file)
+    {
+        $parser = new DocumentParser;
+        if (!Cache::has("blog-post-{$file}")) {
+            $post = $parser->parse($this->finder->get($file));
+            Cache::put("blog-post-{$file}", $post, 1440);
+        }
+        $post = Cache::get("blog-post-{$file}");
+        return $post;
     }
 }
