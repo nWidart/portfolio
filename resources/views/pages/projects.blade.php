@@ -30,5 +30,13 @@ Projects | @parent
     </li>
 </ul>
 
+<h2>Side projects websites</h2>
+
+<ul class="bullet">
+    <li>
+        <a href="http://forum.tplpc.com">Tout Pour Le PC</a>
+    </li>
+</ul>
+
 <a href="https://github.com/nWidart" target="_blank" class="btn btn-primary">View all my projects on GitHub</a>
 @stop
