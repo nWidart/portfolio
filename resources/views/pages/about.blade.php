@@ -35,9 +35,15 @@ About | @parent
     <div class="col-md-6">
         <h2>Find me on</h2>
         <ul class="bullet">
-            <li><a href="https://github.com/nWidart" target="_blank">Github</a></li>
-            <li><a href="http://be.linkedin.com/pub/nicolas-widart/25/7ab/a63" target="_blank">LinkedIn</a></li>
-            <li><a href="http://twitter.com/nicolaswidart" target="_blank">Twitter</a></li>
+            <li>
+                <a href="https://github.com/nWidart" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="http://be.linkedin.com/pub/nicolas-widart/25/7ab/a63" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <a href="http://twitter.com/nicolaswidart" target="_blank">Twitter</a>
+            </li>
         </ul>
 
     </div>
