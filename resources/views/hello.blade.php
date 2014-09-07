@@ -3,7 +3,7 @@
 @section('content')
 <div class="row">
     <div class="jumbotron">
-      <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=150" alt="" class="img-circle pull-right pull-top"/>
+      <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=150" alt="Nicolas Widart Profile picture" class="img-circle pull-right pull-top"/>
       <h1>Hi,</h1>
       <p>My name is Nicolas Widart, and I'm a <strong>web developper</strong>. I love the <a href="http://www.laravel.com" target="_blank">Laravel</a> framework and new technologies.</p>
       <p><a class="btn btn-primary btn-lg" href="{{ URL::route('about') }}">Learn more about me</a></p>
