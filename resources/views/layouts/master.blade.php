@@ -2,12 +2,13 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="description" content="Nicolas Widart's Personal Portfolio. My name is Nicolas Widart, and I'm a web developper. I love the Laravel framework and new technologies." />
     <title>
     @section('title')
        Nicolas Widart
     @show
    </title>
-   <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" media="screen">
     <link rel="stylesheet" href="{{ asset('/assets/css/bootswatch.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/prism.css') }}">
