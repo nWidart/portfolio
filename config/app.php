@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'debug' => true,
+	'debug' => false,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -107,7 +107,7 @@ return [
 		'Nwidart\Providers\StorageServiceProvider',
 
         /* Packages */
-
+        'Nwidart\Httpstatus\HttpstatusServiceProvider',
 		/*
 		 * Laravel Framework Service Providers...
 		 */
