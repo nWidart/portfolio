@@ -5,7 +5,7 @@ date: 28 July 2013
 tags: github, open-source, documentation
 
 -------
-```  {.language-php}
+``` {.language-php}
 private function replaceCodeParts($post)
 {
     $pattern = '/(`){3}\ +(\w+)/';
