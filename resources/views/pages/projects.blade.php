@@ -38,5 +38,5 @@ Projects | @parent
     </li>
 </ul>
 
-<a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my project on GitHub</a>
+<a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
 @stop
