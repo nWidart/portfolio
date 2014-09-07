@@ -10,14 +10,16 @@
     </div>
 </div>
 <div class="row">
-    <h1>Recent blog posts</h1>
-    <ul>
-        <?php foreach($posts as $post): ?>
-            <li>
-                <span class="date">{{ $post->date }}</span>
-                <h3><a href="{{ URL::route('blog.show', $post->slug ); }}">{{ $post->title; }}</a></h3>
-            </li>
-        <?php endforeach; ?>
-    </ul>
+    <div class="col-lg-12">
+        <h1>Recent blog posts</h1>
+        <ul>
+            <?php foreach($posts as $post): ?>
+                <li>
+                    <span class="date">{{ $post->date }}</span>
+                    <h3><a href="{{ URL::route('blog.show', $post->slug ); }}">{{ $post->title; }}</a></h3>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
 </div>
 @stop
