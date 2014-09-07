@@ -1,5 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
 /* Homepage */
+.rounded {
+  border-radius: 100px;
+}
 img.pull-top {
   margin-top: 40px;
 }
@@ -18,6 +21,10 @@ ul li .date {
   color: #b4bcc2;
   width: 130px;
   text-align: right;
+}
+.date {
+  color: #b4bcc2;
+  font-size: 0.9em;
 }
 ul.bullet li {
   list-style: disc;
