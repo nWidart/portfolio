@@ -36,14 +36,8 @@ class Post
             if ($this->isInDraft($post)) {
                 continue;
             }
-            $postObject = new stdClass;
-            $postObject->title = $post->get('title');
-            $postObject->slug = $post->get('slug');
-            $postObject->status = $post->get('status');
-            $postObject->date = $post->get('date');
-            $postObject->tags = $post->get('tags');
-            $postObject->content = $this->replaceCodeParts($post);
-            $postCollection->put($i, $postObject);
+
+            $postCollection->put($i, $this->getPostData($post));
         }
 
         $postCollection->sortByDesc(function($post) {
@@ -99,5 +93,18 @@ class Post
     private function isInDraft($post)
     {
         return $post->get('status') == 'draft' ? true : false;
+    }
+
+    private function getPostData($post)
+    {
+        $postObject = new stdClass;
+        $postObject->title = $post->get('title');
+        $postObject->slug = $post->get('slug');
+        $postObject->status = $post->get('status');
+        $postObject->date = $post->get('date');
+        $postObject->tags = $post->get('tags');
+        $postObject->content = $this->replaceCodeParts($post);
+
+        return $postObject;
     }
 }
