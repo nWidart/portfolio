@@ -29,17 +29,21 @@ class Post
     {
         $postCollection = new Collection;
         foreach ($this->finder->allFiles('posts') as $i => $file) {
-            if ($this->isMarkdownFile($file)) {
-                $post = $this->getPostContent($file);
-                $postObject = new stdClass;
-                $postObject->title = $post->get('title');
-                $postObject->slug = $post->get('slug');
-                $postObject->status = $post->get('status');
-                $postObject->date = $post->get('date');
-                $postObject->tags = $post->get('tags');
-                $postObject->content = $this->replaceCodeParts($post);
-                $postCollection->put($i, $postObject);
+            if (!$this->isMarkdownFile($file)) {
+                continue;
             }
+            $post = $this->getPostContent($file);
+            if ($this->isInDraft($post)) {
+                continue;
+            }
+            $postObject = new stdClass;
+            $postObject->title = $post->get('title');
+            $postObject->slug = $post->get('slug');
+            $postObject->status = $post->get('status');
+            $postObject->date = $post->get('date');
+            $postObject->tags = $post->get('tags');
+            $postObject->content = $this->replaceCodeParts($post);
+            $postCollection->put($i, $postObject);
         }
 
         $postCollection->sortByDesc(function($post) {
@@ -90,5 +94,10 @@ class Post
         }
         $post = Cache::get("blog-post-{$file}");
         return $post;
+    }
+
+    private function isInDraft($post)
+    {
+        return $post->get('status') == 'draft' ? true : false;
     }
 }
