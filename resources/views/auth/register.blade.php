@@ -5,13 +5,7 @@
     <div class="col-md-4 col-md-offset-3">
         <h1>Register</h1>
 
-        <?php if ($errors->any()): ?>
-            <ul>
-                <?php foreach($errors->all() as $error): ?>
-                    <li>{{ $error }}</li>
-                <?php endforeach; ?>
-            </ul>
-        <?php endif; ?>
+        @include('partials.errors')
         {{ Form::open() }}
             <div class="form-group">
                 {{ Form::label('email', 'Email:') }}
