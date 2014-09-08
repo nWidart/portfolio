@@ -48,7 +48,7 @@ class AuthController extends Controller
      */
     public function postRegister(RegisterRequest $request)
     {
-        User::create($request->all());
+        $user = User::create($request->all());
 
         $this->auth->login($user);
 

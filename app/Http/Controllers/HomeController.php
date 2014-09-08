@@ -1,6 +1,5 @@
 <?php namespace Nwidart\Http\Controllers;
 
-use Illuminate\Contracts\View\View;
 use Illuminate\Routing\Controller;
 use Nwidart\Http\Posts\Repositories\PostRepository;
 
