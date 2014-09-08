@@ -55,9 +55,9 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'PortfolioV2',
-			'username'  => 'root',
-			'password'  => 'root',
+			'database'  => 'nwidart',
+			'username'  => getenv('mysql-username'),
+			'password'  => getenv('mysql-password'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

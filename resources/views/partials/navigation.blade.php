@@ -15,6 +15,11 @@
                 <li class="{{ Request::is('blog*') ? 'active' : ''}}"><a href="{{ URL::route('blog.index'); }}">Blog</a></li>
                 <li class="{{ Request::is('projects') ? 'active' : ''}}"><a href="{{ URL::route('projects') }}">Projects</a></li>
             </ul>
+            <?php if (Auth::user()): ?>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="{{ URL::to('auth/logout') }}">Logout</a></li>
+                </ul>
+            <?php endif; ?>
         </div>
     </div>
 </nav>
