@@ -3,6 +3,7 @@
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Kurenai\DocumentParser;
 use Illuminate\Filesystem\Filesystem as FileSys;
@@ -33,7 +34,7 @@ class Post
                 continue;
             }
             $post = $this->getPostContent($file);
-            if ($this->isInDraft($post)) {
+            if ($this->isInDraft($post) && !Auth::check()) {
                 continue;
             }
 
