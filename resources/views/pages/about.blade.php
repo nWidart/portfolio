@@ -29,7 +29,8 @@ About | @parent
         <ul class="bullet">
             <li>Back-end: PHP</li>
             <li>Framework: Laravel</li>
-            <li>Front-end : HTML/CSS & jQuery</li>
+            <li>Front-end : HTML5/CSS5 & javascript (jQuery)</li>
+            <li>Sys. Admin: Basic server management & unix commands</li>
         </ul>
     </div>
     <div class="col-md-6">
