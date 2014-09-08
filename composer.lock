@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce6ad8f41c1c01f47d94d59ab4bb64b9",
+    "hash": "e620fc3067901571c8452835f2989418",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -258,6 +258,49 @@
             "time": "2014-07-11 05:56:54"
         },
         {
+            "name": "illuminate/html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/html.git",
+                "reference": "823d69b277266730d123c0c388b704e63af35628"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/823d69b277266730d123c0c388b704e63af35628",
+                "reference": "823d69b277266730d123c0c388b704e63af35628",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~4.3",
+                "illuminate/session": "~4.3",
+                "illuminate/support": "~4.3",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Html\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-08-21 17:54:16"
+        },
+        {
             "name": "ircmaxell/password-compat",
             "version": "1.0.x-dev",
             "source": {
@@ -350,12 +393,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b257d849d0010c9c6571a4b7c62be948470c95d8"
+                "reference": "a5835ee93271b902270c31dc0e5e07d40b98f824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b257d849d0010c9c6571a4b7c62be948470c95d8",
-                "reference": "b257d849d0010c9c6571a4b7c62be948470c95d8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a5835ee93271b902270c31dc0e5e07d40b98f824",
+                "reference": "a5835ee93271b902270c31dc0e5e07d40b98f824",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +499,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-07 00:59:34"
+            "time": "2014-09-08 02:29:24"
         },
         {
             "name": "league/flysystem",
@@ -2578,6 +2621,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "illuminate/html": 20,
         "nwidart/httpstatus": 20
     },
     "prefer-stable": false,
