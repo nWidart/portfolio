@@ -1,5 +1,10 @@
 @import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
 /* Homepage */
+body {
+  line-height: 2em;
+  margin: 0 0 22px;
+  font-size: 1.5em;
+}
 .rounded {
   border-radius: 100px;
 }
@@ -9,6 +14,9 @@ img.pull-top {
 .jumbotron {
   background: #ffffff;
   padding: 20px 30px;
+}
+ul.no-padding {
+  padding-left: 0px;
 }
 /* Posts page */
 ul {

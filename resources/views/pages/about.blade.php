@@ -51,7 +51,7 @@ About | @parent
 <div class="row">
     <div class="col-md-6">
         <h2>Download</h2>
-        <ul>
+        <ul class="no-padding">
             <li>
                 <a href="{{ asset('cv/Nicolas Widart CV_EN.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
             </li>
