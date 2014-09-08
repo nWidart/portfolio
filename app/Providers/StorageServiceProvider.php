@@ -13,8 +13,8 @@ class StorageServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'Nwidart\Http\Posts\Repositories\PostRepository',
-            'Nwidart\Http\Posts\Repositories\File\FilePostRepository'
+            'Nwidart\Posts\Repositories\PostRepository',
+            'Nwidart\Posts\Repositories\File\FilePostRepository'
         );
     }
 }

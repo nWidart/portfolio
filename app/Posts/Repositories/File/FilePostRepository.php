@@ -1,7 +1,7 @@
-<?php namespace Nwidart\Http\Posts\Repositories\File;
+<?php namespace Nwidart\Posts\Repositories\File;
 
-use Nwidart\Http\Posts\Entities\Post;
-use Nwidart\Http\Posts\Repositories\PostRepository;
+use Nwidart\Posts\Entities\Post;
+use Nwidart\Posts\Repositories\PostRepository;
 
 class FilePostRepository implements PostRepository
 {

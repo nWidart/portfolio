@@ -1,7 +1,7 @@
 <?php namespace Nwidart\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Nwidart\Http\Posts\Repositories\PostRepository;
+use Nwidart\Posts\Repositories\PostRepository;
 
 class HomeController extends Controller
 {

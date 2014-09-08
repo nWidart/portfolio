@@ -2,7 +2,7 @@
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Routing\Controller;
-use Nwidart\Http\Posts\Repositories\PostRepository;
+use Nwidart\Posts\Repositories\PostRepository;
 
 class PostsController extends Controller
 {

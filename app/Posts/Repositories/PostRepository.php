@@ -1,4 +1,4 @@
-<?php namespace Nwidart\Http\Posts\Repositories;
+<?php namespace Nwidart\Posts\Repositories;
 
 interface PostRepository
 {

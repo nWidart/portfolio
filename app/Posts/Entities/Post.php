@@ -1,4 +1,4 @@
-<?php namespace Nwidart\Http\Posts\Entities;
+<?php namespace Nwidart\Posts\Entities;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
