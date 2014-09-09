@@ -39,4 +39,11 @@ Projects | @parent
 </ul>
 
 <a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
+
+<h2>Latest Activity</h2>
+<ul>
+    <?php foreach($repositories as $repository): ?>
+        <li>{{ $repository['name'] }}</li>
+    <?php endforeach; ?>
+</ul>
 @stop
