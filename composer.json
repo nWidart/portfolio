@@ -9,7 +9,8 @@
         "illuminate/html": "4.3.*@dev",
         "daylerees/kurenai": "1.0.*",
         "michelf/php-markdown": "1.*",
-        "nwidart/httpstatus": "dev-master"
+        "nwidart/httpstatus": "dev-master",
+        "graham-campbell/github": "~0.1"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0"

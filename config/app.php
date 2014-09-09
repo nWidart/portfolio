@@ -109,6 +109,7 @@ return [
         /* Packages */
         'Nwidart\Httpstatus\HttpstatusServiceProvider',
         'Illuminate\Html\HtmlServiceProvider',
+        'GrahamCampbell\GitHub\GitHubServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
@@ -191,8 +192,10 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-        'Form'      => 'Illuminate\Html\FormFacade',
 
+        /* Packages */
+        'Form'      => 'Illuminate\Html\FormFacade',
+        'GitHub' => 'GrahamCampbell\GitHub\Facades\GitHub'
 	],
 
 ];
