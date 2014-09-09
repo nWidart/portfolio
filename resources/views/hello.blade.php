@@ -17,7 +17,7 @@
                 <li>
                     <span class="date">{{ $post->date }}</span>
                     <h3>
-                        <a href="{{ URL::route('blog.show', $post->slug ); }}"><?php echo $post->status == 'draft' ? '[Draft]' : ''; ?> {{ $post->title; }}</a>
+                        <a href="{{ URL::route('blog.show', [$post->slug]) }}"><?php echo $post->status == 'draft' ? '[Draft]' : ''; ?> {{ $post->title }}</a>
                     </h3>
                 </li>
             <?php endforeach; ?>
