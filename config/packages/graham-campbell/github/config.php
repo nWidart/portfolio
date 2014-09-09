@@ -42,7 +42,7 @@ return array(
 
     'connections' => array(
         'main' => array(
-            'token'   => getenv('github-client-id')
+            'token'   => getenv('github-token')
         ),
     )
 
