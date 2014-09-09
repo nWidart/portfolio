@@ -393,12 +393,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a5835ee93271b902270c31dc0e5e07d40b98f824"
+                "reference": "d8ea319b039bce6a470d5743cce56ec06fabe454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a5835ee93271b902270c31dc0e5e07d40b98f824",
-                "reference": "a5835ee93271b902270c31dc0e5e07d40b98f824",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d8ea319b039bce6a470d5743cce56ec06fabe454",
+                "reference": "d8ea319b039bce6a470d5743cce56ec06fabe454",
                 "shasum": ""
             },
             "require": {
@@ -478,6 +478,7 @@
                     "src/Illuminate/Queue/IlluminateQueueClosure.php"
                 ],
                 "files": [
+                    "src/Illuminate/Foundation/helpers.php",
                     "src/Illuminate/Support/helpers.php"
                 ],
                 "psr-0": {
@@ -499,7 +500,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-08 02:29:24"
+            "time": "2014-09-09 01:50:23"
         },
         {
             "name": "league/flysystem",
@@ -507,12 +508,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d768e2854ec0c50550e1dc4070990b8463f2c474"
+                "reference": "b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d768e2854ec0c50550e1dc4070990b8463f2c474",
-                "reference": "d768e2854ec0c50550e1dc4070990b8463f2c474",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c",
+                "reference": "b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c",
                 "shasum": ""
             },
             "require": {
@@ -579,7 +580,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-09-06 17:35:39"
+            "time": "2014-09-08 15:13:18"
         },
         {
             "name": "michelf/php-markdown",
@@ -1580,12 +1581,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "48918338e531309221ebe3d4385b61ab5f360f4d"
+                "reference": "bca0e99622bd10c4cbc1814e999dd570e60bc100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/48918338e531309221ebe3d4385b61ab5f360f4d",
-                "reference": "48918338e531309221ebe3d4385b61ab5f360f4d",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/bca0e99622bd10c4cbc1814e999dd570e60bc100",
+                "reference": "bca0e99622bd10c4cbc1814e999dd570e60bc100",
                 "shasum": ""
             },
             "require": {
@@ -1642,7 +1643,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-09-04 19:31:49"
+            "time": "2014-09-08 19:56:26"
         },
         {
             "name": "symfony/process",
