@@ -1,14 +1,14 @@
 <?php namespace Nwidart\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Nwidart\Services\Github\GithubRepositoryService;
+use Nwidart\Services\Activity\ActivityService;
 
 class ProjectsController extends Controller
 {
-    public function index(GithubRepositoryService $githubRepository)
+    public function index(ActivityService $githubActivity)
     {
-        $repositories = $githubRepository->latest();
+        $activities = $githubActivity->forUser('nwidart')->activities();
 
-        return view('pages.projects', compact('repositories'));
+        return view('pages.projects', compact('repositories', 'activities'));
     }
 }

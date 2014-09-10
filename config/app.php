@@ -105,6 +105,7 @@ return [
 		'Nwidart\Providers\LogServiceProvider',
 		'Nwidart\Providers\RouteServiceProvider',
 		'Nwidart\Providers\StorageServiceProvider',
+		'Nwidart\Providers\GithubServiceProvider',
 
         /* Packages */
         'Nwidart\Httpstatus\HttpstatusServiceProvider',

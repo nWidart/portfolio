@@ -6,7 +6,7 @@ Projects | @parent
 
 @section('content')
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-7">
         <h1>Projects</h1>
         <h2>Main projects</h2>
         <ul class="bullet">
@@ -38,11 +38,17 @@ Projects | @parent
         </ul>
         <a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
         <h2>Latest Activity</h2>
-        <ul class="bullet">
-            <?php foreach($repositories as $repository): ?>
-                <li><a href="{{ $repository['html_url'] }}" target="_blank">{{ $repository['name'] }}</a></li>
+        <ul class="activity">
+            <?php foreach($activities as $activity): ?>
+                <li>
+                    <img src="{{ $activity['actor_avatar'] }}" alt="" width="40" class="pull-left actorAvatar"/>
+                    <span class="timeAgo">About {{ $activity['time'] }}</span>
+                    <a href="http://github.com/{{ $activity['actor'] }}" target="_blank">{{ $activity['actor'] }}</a>
+                    {{ $activity['verb'] }}
+                    <a href="{{ $activity['target'] }}" target="_blank">{{ $activity['action_object'] }}</a>
+                </li>
             <?php endforeach; ?>
         </ul>
     </div>
