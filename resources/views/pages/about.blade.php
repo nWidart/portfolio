@@ -27,10 +27,15 @@ About | @parent
     <div class="col-md-6">
         <h2>Skills</h2>
         <ul class="bullet">
-            <li>Back-end: PHP</li>
-            <li>Framework: Laravel</li>
-            <li>Front-end : HTML5/CSS5 & javascript (jQuery)</li>
-            <li>Sys. Admin: Basic server management & unix commands</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Clean code (SOLID principles, clean architecture, ...)</li>
+            <li>Git Source Control</li>
+            <li>Svn Source Control</li>
+            <li>eCommerce websites</li>
+            <li>Wordpress</li>
+            <li>HTML5/CSS5 & javascript (jQuery)</li>
+            <li>Basic server management & unix commands</li>
         </ul>
     </div>
     <div class="col-md-6">
