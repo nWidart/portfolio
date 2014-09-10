@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/html.git",
-                "reference": "823d69b277266730d123c0c388b704e63af35628"
+                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/html/zipball/823d69b277266730d123c0c388b704e63af35628",
-                "reference": "823d69b277266730d123c0c388b704e63af35628",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/3b6955936855733a7b27c0c12b6d72ab244779b2",
+                "reference": "3b6955936855733a7b27c0c12b6d72ab244779b2",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,10 @@
             "autoload": {
                 "psr-4": {
                     "Illuminate\\Html\\": ""
-                }
+                },
+                "files": [
+                    "helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -507,7 +510,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-08-21 17:54:16"
+            "time": "2014-09-09 16:25:34"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -602,12 +605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/php-github-api.git",
-                "reference": "7574e92bdb4869a3193243ee794749b669be318c"
+                "reference": "4d411b3650002525e7e7f39b5db35e267c8fb3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/7574e92bdb4869a3193243ee794749b669be318c",
-                "reference": "7574e92bdb4869a3193243ee794749b669be318c",
+                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/4d411b3650002525e7e7f39b5db35e267c8fb3ce",
+                "reference": "4d411b3650002525e7e7f39b5db35e267c8fb3ce",
                 "shasum": ""
             },
             "require": {
@@ -655,7 +658,7 @@
                 "gist",
                 "github"
             ],
-            "time": "2014-09-03 09:13:39"
+            "time": "2014-09-10 07:08:05"
         },
         {
             "name": "laravel/framework",
@@ -663,12 +666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d8ea319b039bce6a470d5743cce56ec06fabe454"
+                "reference": "092fa8b34b39fa7853d494690ce92f7894e24cbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d8ea319b039bce6a470d5743cce56ec06fabe454",
-                "reference": "d8ea319b039bce6a470d5743cce56ec06fabe454",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/092fa8b34b39fa7853d494690ce92f7894e24cbe",
+                "reference": "092fa8b34b39fa7853d494690ce92f7894e24cbe",
                 "shasum": ""
             },
             "require": {
@@ -770,7 +773,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-09 01:50:23"
+            "time": "2014-09-09 22:11:15"
         },
         {
             "name": "league/flysystem",
@@ -977,16 +980,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551"
+                "reference": "cde7a00d1410a17fb6d61b993cb017a78be1137c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cde7a00d1410a17fb6d61b993cb017a78be1137c",
+                "reference": "cde7a00d1410a17fb6d61b993cb017a78be1137c",
                 "shasum": ""
             },
             "require": {
@@ -1019,7 +1022,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-08-26 03:18:44"
+            "time": "2014-09-10 03:26:33"
         },
         {
             "name": "nikic/php-parser",
@@ -2745,12 +2748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "8ab105f1fbf947408f69f476aba8ce8180503968"
+                "reference": "c7d59948d6e82818e1bdff7cadb6c34710eb7dc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/8ab105f1fbf947408f69f476aba8ce8180503968",
-                "reference": "8ab105f1fbf947408f69f476aba8ce8180503968",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/c7d59948d6e82818e1bdff7cadb6c34710eb7dc0",
+                "reference": "c7d59948d6e82818e1bdff7cadb6c34710eb7dc0",
                 "shasum": ""
             },
             "require": {
@@ -2802,7 +2805,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2014-08-13 23:54:49"
+            "time": "2014-09-10 00:51:36"
         },
         {
             "name": "sebastian/version",
