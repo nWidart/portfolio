@@ -38,7 +38,7 @@ Projects | @parent
         </ul>
         <a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
     </div>
-    <div class="col-md-3" style="display: none;">
+    <div class="col-md-3">
         <h2>Latest Activity</h2>
         <ul class="bullet">
             <?php foreach($repositories as $repository): ?>
