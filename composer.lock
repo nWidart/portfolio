@@ -605,12 +605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/php-github-api.git",
-                "reference": "4d411b3650002525e7e7f39b5db35e267c8fb3ce"
+                "reference": "e67a83ef6286daf433cf5f97d10d7f1368723a0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/4d411b3650002525e7e7f39b5db35e267c8fb3ce",
-                "reference": "4d411b3650002525e7e7f39b5db35e267c8fb3ce",
+                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/e67a83ef6286daf433cf5f97d10d7f1368723a0e",
+                "reference": "e67a83ef6286daf433cf5f97d10d7f1368723a0e",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
                 "gist",
                 "github"
             ],
-            "time": "2014-09-10 07:08:05"
+            "time": "2014-09-10 12:49:17"
         },
         {
             "name": "laravel/framework",
@@ -666,12 +666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "092fa8b34b39fa7853d494690ce92f7894e24cbe"
+                "reference": "1e552579c1645bcaccd695fd831144ee6e4db555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/092fa8b34b39fa7853d494690ce92f7894e24cbe",
-                "reference": "092fa8b34b39fa7853d494690ce92f7894e24cbe",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1e552579c1645bcaccd695fd831144ee6e4db555",
+                "reference": "1e552579c1645bcaccd695fd831144ee6e4db555",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,8 @@
                 "phpunit/phpunit": "~4.0"
             },
             "suggest": {
-                "doctrine/dbal": "Allow renaming columns and dropping SQLite columns."
+                "doctrine/dbal": "Allow renaming columns and dropping SQLite columns.",
+                "guzzlehttp/guzzle": "Required for Mailgun and Mandrill mail drivers."
             },
             "type": "library",
             "extra": {
@@ -773,7 +774,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-09 22:11:15"
+            "time": "2014-09-10 17:19:58"
         },
         {
             "name": "league/flysystem",
@@ -912,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "12545cda2f7a0bd82a110f742ef455fe735e60cf"
+                "reference": "b3f039339d7a8173c7b441dbaa572ccacb712b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/12545cda2f7a0bd82a110f742ef455fe735e60cf",
-                "reference": "12545cda2f7a0bd82a110f742ef455fe735e60cf",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b3f039339d7a8173c7b441dbaa572ccacb712b54",
+                "reference": "b3f039339d7a8173c7b441dbaa572ccacb712b54",
                 "shasum": ""
             },
             "require": {
@@ -976,7 +977,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-07-31 22:12:22"
+            "time": "2014-09-10 15:41:01"
         },
         {
             "name": "nesbot/carbon",
@@ -2525,12 +2526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "fd3ccb21dbc1e5e89e33075afbc7e929aabc639a"
+                "reference": "3d40ae857a3941ede714be45079e85f9e956b4b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/fd3ccb21dbc1e5e89e33075afbc7e929aabc639a",
-                "reference": "fd3ccb21dbc1e5e89e33075afbc7e929aabc639a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/3d40ae857a3941ede714be45079e85f9e956b4b3",
+                "reference": "3d40ae857a3941ede714be45079e85f9e956b4b3",
                 "shasum": ""
             },
             "require": {
@@ -2572,7 +2573,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-09-06 17:39:17"
+            "time": "2014-09-10 14:10:18"
         },
         {
             "name": "sebastian/comparator",
