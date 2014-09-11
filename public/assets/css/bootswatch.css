@@ -50,13 +50,13 @@ blockquote {
   border-left: 2px solid #2c3e50;
 }
 /* Projects page */
-.activity {
-  padding-left: 0;
-}
-.activity .timeAgo {
+.timeAgo {
   display: block;
   color: #b4bcc2;
   font-size: .8em;
+}
+.activity {
+  padding-left: 0;
 }
 .activity .actorAvatar {
   margin-right: 10px;

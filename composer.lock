@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4e17f121926e71304fdc260bd88c1f5",
+    "hash": "927ced296ebe988ff9898ea3f5f77669",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -666,12 +666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1e552579c1645bcaccd695fd831144ee6e4db555"
+                "reference": "1262b1d00eaa310636362a744df5b9fb6b564bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1e552579c1645bcaccd695fd831144ee6e4db555",
-                "reference": "1e552579c1645bcaccd695fd831144ee6e4db555",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1262b1d00eaa310636362a744df5b9fb6b564bf8",
+                "reference": "1262b1d00eaa310636362a744df5b9fb6b564bf8",
                 "shasum": ""
             },
             "require": {
@@ -774,7 +774,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-09-10 17:19:58"
+            "time": "2014-09-11 01:19:22"
         },
         {
             "name": "league/flysystem",
@@ -782,12 +782,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c"
+                "reference": "d63e897b8859d7da2e5d8f0350b3952e3605b0a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c",
-                "reference": "b5f8ed48e59010e906e6ccebf1ffb80f0c3c0f7c",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d63e897b8859d7da2e5d8f0350b3952e3605b0a2",
+                "reference": "d63e897b8859d7da2e5d8f0350b3952e3605b0a2",
                 "shasum": ""
             },
             "require": {
@@ -854,7 +854,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-09-08 15:13:18"
+            "time": "2014-09-11 10:19:55"
         },
         {
             "name": "michelf/php-markdown",
@@ -2148,6 +2148,91 @@
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
             "time": "2014-09-05 11:44:55"
+        },
+        {
+            "name": "themattharris/tmhoauth",
+            "version": "0.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/themattharris/tmhOAuth.git",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/themattharris/tmhOAuth/zipball/455552d6c57549632644b6c9ac9204766be2b5ee",
+                "reference": "455552d6c57549632644b6c9ac9204766be2b5ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "tmhOAuth": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "themattharris",
+                    "email": "matt@themattharris.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An OAuth library written in PHP by @themattharris",
+            "keywords": [
+                "oauth",
+                "twitter"
+            ],
+            "time": "2014-08-06 22:29:35"
+        },
+        {
+            "name": "thujohn/twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thujohn/twitter-l4.git",
+                "reference": "bf9ba043b8158bf43ef3ff0656dcda7048917a3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thujohn/twitter-l4/zipball/bf9ba043b8158bf43ef3ff0656dcda7048917a3c",
+                "reference": "bf9ba043b8158bf43ef3ff0656dcda7048917a3c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.x",
+                "php": ">=5.3.0",
+                "themattharris/tmhoauth": "~0.8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thujohn\\Twitter": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thujohn",
+                    "email": "jonathan.thuau@gmail.com"
+                }
+            ],
+            "description": "Twitter API for Laravel 4",
+            "keywords": [
+                "laravel",
+                "laravel4",
+                "twitter"
+            ],
+            "time": "2014-08-29 14:16:35"
         }
     ],
     "packages-dev": [
@@ -2897,7 +2982,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "illuminate/html": 20,
-        "nwidart/httpstatus": 20
+        "nwidart/httpstatus": 20,
+        "thujohn/twitter": 20
     },
     "prefer-stable": false,
     "platform": [

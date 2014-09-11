@@ -17,12 +17,15 @@
             </div>
             <div class="col-lg-6">
                 <h4>Twitter feed</h4>
-                {{--<ul class="bullet">
-                    <li><a href="">testlink</a></li>
-                    <li><a href="">testlink</a></li>
-                    <li><a href="">testlink</a></li>
-                    <li><a href="">testlink</a></li>
-                </ul>--}}
+                <ul class="activity">
+                    <?php foreach($twitterPosts as $post): ?>
+                        <li>
+                            <span class="timeAgo">{{ $post['time'] }}</span>
+                            {!! $post['tweet'] !!}
+                            <a href="{{ $post['url'] }}" target="_blank">View tweet</a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
             </div>
         </div>
     </div>

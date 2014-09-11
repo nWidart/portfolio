@@ -111,6 +111,7 @@ return [
         'Nwidart\Httpstatus\HttpstatusServiceProvider',
         'Illuminate\Html\HtmlServiceProvider',
         'GrahamCampbell\GitHub\GitHubServiceProvider',
+        'Thujohn\Twitter\TwitterServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
@@ -195,8 +196,9 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 
         /* Packages */
-        'Form'      => 'Illuminate\Html\FormFacade',
-        'GitHub' => 'GrahamCampbell\GitHub\Facades\GitHub'
+        'Form' => 'Illuminate\Html\FormFacade',
+        'GitHub' => 'GrahamCampbell\GitHub\Facades\GitHub',
+        'Twitter' => 'Thujohn\Twitter\TwitterFacade',
 	],
 
 ];
