@@ -10,7 +10,7 @@ class WatchEvent extends BaseEventClass implements GithubEventInterface
             'actor_avatar' => $eventData['actor']['avatar_url'],
             'verb' => 'starred ',
             'action_object' => $eventData['repo']['name'],
-            'target' => "http://github.com/{$eventData['repo']['name']}"
+            'target' => $this->getGithubUrl($eventData['repo']['name'])
         ];
     }
 }

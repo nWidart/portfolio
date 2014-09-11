@@ -10,4 +10,9 @@ abstract class BaseEventClass
 
         return Carbon::createFromTimestamp($date)->diffForHumans();
     }
+
+    public function getGithubUrl($repository)
+    {
+        return "http://github.com/{$repository}";
+    }
 }

@@ -10,7 +10,7 @@ class CreateEvent extends BaseEventClass implements GithubEventInterface
             'actor_avatar' => $eventData['actor']['avatar_url'],
             'verb' => "created {$eventData['payload']['ref_type']}",
             'action_object' => $eventData['payload']['ref'],
-            'target' => "http://github.com/{$eventData['repo']['name']}"
+            'target' => $this->getGithubUrl($eventData['repo']['name'])
         ];
     }
 }
