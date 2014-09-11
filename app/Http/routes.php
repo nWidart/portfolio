@@ -11,3 +11,10 @@ Route::get('projects', ['as' => 'projects', 'uses' => 'ProjectsController@index'
 Route::controller('auth', 'Auth\AuthController');
 
 Route::controller('password', 'Auth\RemindersController');
+
+/*
+|--------------------------------------------------------------------------
+| View Composer listeners
+|--------------------------------------------------------------------------
+*/
+View::composer('partials.footer', 'Nwidart\Composers\FooterComposer');

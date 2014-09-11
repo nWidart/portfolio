@@ -269,11 +269,20 @@ input:focus {
   color: #2c3e50;
 }
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #fff;
   margin-top: 5rem;
-  padding: 2rem 0;
 }
-footer li {
+footer .dark {
+  background: #2c3e50;
+  height: 100%;
+  color: #fff;
+  padding: .5em 0 1em;
+}
+/* Bottom footer */
+.bottom-footer {
+  margin-top: 10px;
+}
+footer .bottom-list li {
   padding-right: 20px;
   float: left;
 }

@@ -25,9 +25,9 @@ class ActivityService
         return $this;
     }
 
-    public function activities()
+    public function activities($limit = 5)
     {
-        $rawActivities = $this->getRawActivities(5);
+        $rawActivities = $this->getRawActivities($limit);
 
         $cleanedActivities = [];
         foreach ($rawActivities as $rawActivity) {
@@ -39,15 +39,15 @@ class ActivityService
 
     private function getRawActivities($limit = 5)
     {
-        if (!Cache::has("{$this->user}-events")) {
+        if (!Cache::has("{$this->user}-events-{$limit}")) {
             $client = new Client();
             $response = $client->getHttpClient()->get("users/{$this->user}/events");
 
             $activities = ResponseMediator::getContent($response);
             $activities = array_slice($activities, 0, $limit);
-            Cache::put("{$this->user}-events", $activities, 120);
+            Cache::put("{$this->user}-events-{$limit}", $activities, 120);
         }
 
-        return Cache::get("{$this->user}-events", []);
+        return Cache::get("{$this->user}-events-{$limit}", []);
     }
 }
