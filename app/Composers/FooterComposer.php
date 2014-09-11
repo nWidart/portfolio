@@ -23,8 +23,8 @@ class FooterComposer
     {
         $activities = $this->githubActivity->forUser('nwidart')->activities(3);
 
-        $twitterPosts = $this->twitter->posts('nicolaswidart', 3);
-
+        //$twitterPosts = $this->twitter->posts('nicolaswidart', 3);
+        $twitterPosts = [];
         $view->with(compact('activities', 'twitterPosts'));
     }
 }
