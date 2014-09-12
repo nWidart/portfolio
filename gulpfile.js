@@ -29,13 +29,11 @@ gulp.task('less', function () {
 // Minify and copy all JavaScript (except vendor scripts)
 var js_path = './public/assets/js/**/*.js';
 gulp.task('scripts', function() {
-    return gulp.src('./public/assets/js/*.js')
+    return gulp.src(['./public/assets/js/dist/jquery.min.js', './public/assets/js/*.js', '!./public/assets/js/dist/jquery.min.js'])
         .pipe(uglify())
-        .pipe(gulp.dest('./public/assets/js/dist'))
-        .pipe(notify("Js compiled"))
         .pipe(concat('all.min.js'))
         .pipe(gulp.dest('./public/assets/js/dist'))
-        .pipe(notify("Js minified"));
+        .pipe(notify("Js combined and minified"));
 });
 
 // File watchers
