@@ -3,3 +3,5 @@
 composer.phar
 .env.*
 Thumbs.db
+node_modules
+storage
