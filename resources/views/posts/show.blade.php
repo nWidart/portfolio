@@ -11,9 +11,9 @@
             <a href="{{ URL::route('blog.index') }}"><i class="glyphicon glyphicon-chevron-left"></i> Back to post list</a>
         </span>
         <h1>{{ $post->title }}</h1>
-        <span class="date">Posted on {{ $post->date }}</span>
+        <span class="date">Posted on {{ $post->date->format('d-m-Y') }}</span>
 
-        {{ $post->content }}
+        {!! $post->content !!}
     </div>
 </div>
 <div class="row">
