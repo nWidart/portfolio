@@ -27,9 +27,9 @@ gulp.task('less', function () {
 });
 
 // Minify and copy all JavaScript (except vendor scripts)
-var js_path = './public/assets/js/**/*.js';
+var js_path = './public/assets/js/*.js';
 gulp.task('scripts', function() {
-    return gulp.src(['./public/assets/js/dist/jquery.min.js', './public/assets/js/*.js', '!./public/assets/js/dist/jquery.min.js'])
+    return gulp.src(['./public/assets/js/jquery.js', './public/assets/js/*.js'])
         .pipe(uglify())
         .pipe(concat('all.min.js'))
         .pipe(gulp.dest('./public/assets/js/dist'))
