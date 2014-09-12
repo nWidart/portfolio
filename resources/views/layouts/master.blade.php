@@ -25,7 +25,7 @@
 @include('partials.footer')
 
 
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="{{ asset('assets/js/dist/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('assets/js/prism.js') }}"></script>
 <script>
