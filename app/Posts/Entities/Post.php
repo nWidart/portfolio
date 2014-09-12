@@ -1,5 +1,6 @@
 <?php namespace Nwidart\Posts\Entities;
 
+use Carbon\Carbon;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
@@ -41,9 +42,7 @@ class Post
             $postCollection->put($i, $this->getPostData($post));
         }
 
-        $postCollection->sortByDesc(function($post) {
-            return $post->date;
-        });
+        $postCollection = $this->orderByDate($postCollection);
 
         return $postCollection;
     }
@@ -108,4 +107,22 @@ class Post
 
         return $postObject;
     }
+
+    private function orderByDate($collection)
+    {
+        foreach ($collection as $post) {
+            $timestamp = strtotime($post->date);
+            $post->date = Carbon::createFromTimestamp($timestamp);
+        }
+        return $collection->sort(function ($post1, $post2){
+                if ($post1->date->gt($post2->date)) {
+                    return -1;
+                }
+                if ($post1->date->lt($post2->date)) {
+                    return 1;
+                }
+                return 0;
+            });
+    }
+
 }

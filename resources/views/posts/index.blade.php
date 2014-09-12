@@ -8,7 +8,7 @@ Blog | @parent
 <ul>
     <?php foreach($posts as $post): ?>
         <li>
-            <span class="date">{{ $post->date }}</span>
+            <span class="date">{{ $post->date->format('d-m-Y') }}</span>
             <h3><a href="{{ URL::route('blog.show', [$post->slug]) }}">{{ $post->title }}</a></h3>
         </li>
     <?php endforeach; ?>
