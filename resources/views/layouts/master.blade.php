@@ -30,8 +30,8 @@
 </div>
 @include('partials.footer')
 
+<script src="{{ asset('assets/js/dist/jquery.min.js') }}"></script>
 <?php if (App::environment() == 'development'): ?>
-    <script src="{{ asset('assets/js/dist/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/prism.js') }}"></script>
 <?php else: ?>
