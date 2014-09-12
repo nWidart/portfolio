@@ -19,8 +19,8 @@ Projects | @parent
                 A package to quickly add error pages (403, 404, 500 and 503) to your website.
             </li>
             <li>
-                <a href="https://github.com/nWidart/projectLister" target="_blank">Project Lister</a><br/>
-                A package to easily list your projects from Github, Bitbucket or Sourceforge.
+                <a href="https://github.com/nWidart/activity" target="_blank">Activity</a><br/>
+                Activity lets you list your current activity on Github. Soon from Bitbucket as well.
             </li>
             <li>
                 <a href="https://github.com/nWidart/Modules" target="_blank">Modules</a><br/>
@@ -28,6 +28,10 @@ Projects | @parent
             <li>
                 <a href="https://github.com/nWidart/Laravel-forecast" target="_blank">Laravel-forecast</a><br/>
                 Laravel-forecast provides a service provider and a facade arround the Forecast-php wrapper.
+            </li>
+            <li>
+                <a href="https://github.com/nWidart/projectLister" target="_blank">Project Lister</a><br/>
+                A package to easily list your projects from Github, Bitbucket or Sourceforge.
             </li>
         </ul>
         <h2>Side projects websites</h2>
