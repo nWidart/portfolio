@@ -1,6 +1,8 @@
 <?php namespace Nwidart\Services\Activity;
 
 use Github\Client;
+use Github\HttpClient\Cache\FilesystemCache;
+use Github\HttpClient\CachedHttpClient;
 use Github\HttpClient\Message\ResponseMediator;
 use Illuminate\Support\Facades\Cache;
 
@@ -40,7 +42,11 @@ class ActivityService
     private function getRawActivities($limit = 5)
     {
         if (!Cache::has("{$this->user}-events-{$limit}")) {
-            $client = new Client();
+            $client = new CachedHttpClient();
+            $client->setCache(
+                new FilesystemCache(base_path() . '/storage/github-api-cache')
+            );
+            $client = new Client($client);
             $client->authenticate(getenv('github-token'), 'http_token');
             $response = $client->getHttpClient()->get("users/{$this->user}/events");
 
