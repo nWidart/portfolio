@@ -41,6 +41,7 @@ class ActivityService
     {
         if (!Cache::has("{$this->user}-events-{$limit}")) {
             $client = new Client();
+            $client->authenticate(getenv('github-token'), 'http_token');
             $response = $client->getHttpClient()->get("users/{$this->user}/events");
 
             $activities = ResponseMediator::getContent($response);
