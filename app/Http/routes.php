@@ -8,9 +8,9 @@ Route::get('about', ['as' => 'about', 'uses' => 'AboutController@index']);
 
 Route::get('projects', ['as' => 'projects', 'uses' => 'ProjectsController@index']);
 
-Route::controller('auth', 'Auth\AuthController');
-
-Route::controller('password', 'Auth\RemindersController');
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 /*
 |--------------------------------------------------------------------------
