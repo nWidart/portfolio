@@ -17,14 +17,20 @@ gulp.task('less', function () {
             paths: [ path.join(__dirname, 'less', 'includes') ]
         }))
         .pipe(gulp.dest('./public/assets/css'))
-        .pipe(notify("Less compiled"))
+        .pipe(notify({
+            'title' : 'Css',
+            'message' : 'Less compiled'
+        }))
         .pipe(minifyCSS({keepBreaks:false}))
         .pipe(rename(function (path) {
             path.basename += ".min";
             path.extname = ".css"
         }))
         .pipe(gulp.dest('./public/assets/css/dist/'))
-        .pipe(notify("Css Minified!"));
+        .pipe(notify({
+            'title' : 'Css',
+            'message' : 'Css Minified!'
+        }));
 });
 
 // Minify and copy all JavaScript (except vendor scripts)
@@ -34,7 +40,10 @@ gulp.task('scripts', function() {
         .pipe(uglify())
         .pipe(concat('all.min.js'))
         .pipe(gulp.dest('./public/assets/js/dist'))
-        .pipe(notify("Js combined and minified"));
+        .pipe(notify({
+            'title' : 'Scripts',
+            'message' : 'Js combined and minified'
+        }));
 });
 
 // File watchers
