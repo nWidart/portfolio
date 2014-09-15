@@ -33,6 +33,20 @@ gulp.task('less', function () {
         }));
 });
 
+gulp.task('concat-css', ['less'] ,function() {
+    return gulp.src([
+        './public/assets/css/dist/bootstrap.min.css',
+        './public/assets/css/dist/*.css',
+        './public/assets/css/prism.css',
+    ])
+        .pipe(concat('all.min.css'))
+        .pipe(gulp.dest('./public/assets/css/dist'))
+        .pipe(notify({
+            'title' : 'Css',
+            'message' : 'Css files concatenated'
+        }));
+});
+
 // Minify and copy all JavaScript (except vendor scripts)
 var js_path = './public/assets/js/*.js';
 gulp.task('scripts', function() {

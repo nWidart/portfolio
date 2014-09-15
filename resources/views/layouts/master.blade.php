@@ -13,13 +13,14 @@
    </title>
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ asset('/assets/css/prism.css') }}">
     <?php if (App::environment() == 'development'): ?>
+        <link rel="stylesheet" href="{{ asset('assets/css/dist/bootstrap.min.css') }}" media="screen">
+        <link rel="stylesheet" href="{{ asset('/assets/css/prism.css') }}">
         <link rel="stylesheet" href="{{ asset('/assets/css/bootswatch.css') }}">
     <?php else: ?>
-        <link rel="stylesheet" href="{{ asset('/assets/css/dist/bootswatch.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/assets/css/dist/all.min.css') }}">
     <?php endif; ?>
+
 
 </head>
 <body>
