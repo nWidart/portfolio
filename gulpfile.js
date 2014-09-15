@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     minifyCSS = require('gulp-minify-css'),
     rename = require("gulp-rename"),
     uglify = require('gulp-uglify'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    sourcemaps = require('gulp-sourcemaps');
 
 // Less handling
 var less_path = './public/assets/less/**/*.less';
