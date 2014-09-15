@@ -2,8 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    @section('meta')
     <meta name="description" content="Nicolas Widart's Personal Portfolio. My name is Nicolas Widart, and I'm a web developper. I love the Laravel framework and new technologies." />
-
+    @show
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
     @section('title')
