@@ -29,6 +29,11 @@ Book library | @parent
                 <h3><a href="http://www.amazon.com/Smashing-Book-Digital-Books-ebook/dp/B006PHOLRU/ref=sr_1_18?s=books&ie=UTF8&qid=1410893538&sr=1-18&keywords=smashing+magazine">The Smashing Book 2</a></h3>
                 <span class="author">By Smashing Magazine</span>
             </li>
+            <li class="group">
+                <img src="{{ asset('assets/img/VisualGrammar.jpeg') }}" alt="Visual Gramar" class="pull-left book-cover"/>
+                <h3><a href="http://www.amazon.com/Visual-Grammar-Design-Briefs-Christian/dp/1568985819/ref=sr_1_1?s=books&ie=UTF8&qid=1410894760&sr=1-1&keywords=Visual+GRammar">Visual Gramar</a></h3>
+                <span class="author">By Christian Leborg</span>
+            </li>
         </ul>
     </div>
     <div class="col-md-6">
