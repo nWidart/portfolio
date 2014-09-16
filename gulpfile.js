@@ -62,7 +62,7 @@ gulp.task('scripts', function() {
 
 // File watchers
 gulp.task('watch-less', function() {
-    gulp.watch(less_path, ['less']);
+    gulp.watch(less_path, ['less', 'concat-css']);
 });
 gulp.task('watch-js', function() {
     gulp.watch(js_path, ['scripts']);
