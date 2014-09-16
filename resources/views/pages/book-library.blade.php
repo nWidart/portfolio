@@ -34,6 +34,11 @@ Book library | @parent
                 <h3><a href="http://www.amazon.com/Visual-Grammar-Design-Briefs-Christian/dp/1568985819/ref=sr_1_1?s=books&ie=UTF8&qid=1410894760&sr=1-1&keywords=Visual+GRammar">Visual Gramar</a></h3>
                 <span class="author">By Christian Leborg</span>
             </li>
+            <li class="group">
+                <img src="{{ asset('assets/img/ThinkingWithType.jpeg') }}" alt="Thinking with type" class="pull-left book-cover"/>
+                <h3><a href="http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/ref=sr_1_1?s=books&ie=UTF8&qid=1410894887&sr=1-1&keywords=Thinking+with+type">Thinking With Type</a></h3>
+                <span class="author">By Ellen Lupton</span>
+            </li>
         </ul>
     </div>
     <div class="col-md-6">
