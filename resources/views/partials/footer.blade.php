@@ -39,6 +39,7 @@
                     <li class="{{ Request::is('about') ? 'active' : '' }}"><a href="{{ URL::route('about') }}">About</a></li>
                     <li class="{{ Request::is('blog*') ? 'active' : '' }}"><a href="{{ URL::route('blog.index') }}">Blog</a></li>
                     <li class="{{ Request::is('projects') ? 'active' : '' }}"><a href="{{ URL::route('projects') }}">Projects</a></li>
+                    <li class="{{ Request::is('book-library') ? 'active' : ''}}"><a href="{{ URL::route('library') }}">Book Library</a></li>
                 </ul>
             </div>
         </div>
