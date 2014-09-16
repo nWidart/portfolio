@@ -4,6 +4,14 @@
 {{ $post->title }} | @parent
 @stop
 
+@section('meta')
+<?php if ($post->metaDescription): ?>
+    <meta name="description" content="{{ $post->metaDescription }}"/>
+<?php else : ?>
+@parent
+<?php endif; ?>
+@stop
+
 @section('content')
 <div class="row">
     <div class="col-lg-12">

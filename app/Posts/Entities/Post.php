@@ -104,6 +104,7 @@ class Post
         $postObject->date = $post->get('date');
         $postObject->tags = $post->get('tags');
         $postObject->content = $this->replaceCodeParts($post);
+        $postObject->metaDescription = $post->get('meta-description') ?: '';
 
         return $postObject;
     }

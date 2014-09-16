@@ -3,6 +3,7 @@ slug: db-exporter-package-review
 status: published
 date: 12 sep 2014
 tags: database,dbexporter,laravel
+meta-description: DbExporter lets you export your database structure as a migration file. Understand everything my DbExporter package. Why use it, and how.
 
 -------
 
@@ -17,7 +18,7 @@ DbExporter is a package to recreate migrations based on your current database sc
 
 ## Why use DbExporter?
 
-So you may ask yourself why in the world would I use this package? When you're developing a Laravel application you're eager to use the migrations to create your database schema. 
+So you may ask yourself why in the world would I use this package? When you're developing a Laravel application you're eager to use the migrations to create your database schema.
 
 And you're correct. But, as the application gets bigger, you may have times when you just want to add a column to a certain table, change a `varchar` type to `text`, etc. without having to go through the whole hassle of creating a migration file for that change, and applying the migration.
 
@@ -119,7 +120,7 @@ Again, you can send an array to the ignore method to ignore multiple tables. By 
 
 With the **DbExporter** package you can control the structure of your database on multiple environments with ease, just as the data that goes with it.
 
-If you encounter any bug / pull request / idea, please do not hesitate to post a bug report on the [issues](https://github.com/nWidart/DbExporter/issues) part of the GitHub Repository. 
+If you encounter any bug / pull request / idea, please do not hesitate to post a bug report on the [issues](https://github.com/nWidart/DbExporter/issues) part of the GitHub Repository.
 
 
 
