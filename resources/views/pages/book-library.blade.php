@@ -76,6 +76,11 @@ Book library | @parent
                     <img src="{{ asset('assets/img/CleanCoder.jpeg') }}" alt="The Clean Coder" class="book-cover"/>
                 </a>
             </li>
+            <li class="pull-left">
+                <a href="http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124" target="_blank">
+                    <img src="{{ asset('assets/img/HeadFirstDesignPatterns.jpeg') }}" alt="Head First Design Patterns" class="book-cover"/>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
