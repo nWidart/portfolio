@@ -1,0 +1,80 @@
+{
+    "reading": [
+        {
+            "title": "Domain Driven Design",
+            "link": "http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/ref=sr_1_1?ie=UTF8&qid=1410893440&sr=8-1&keywords=domain+driven+design",
+            "author": "Eriv Evans",
+            "cover": "assets/img/DomainDrivenDesign.jpeg"
+        }
+    ],
+    "read": [
+        {
+            "title": "Clean Code",
+            "link": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?ie=UTF8&qid=1410892741&sr=8-1&keywords=clean+code",
+            "author": "Robert C. Martin, Aka, UncleBob",
+            "cover": "assets/img/cleanCode.jpeg"
+        },
+        {
+            "title": "The Smashing Book 3",
+            "link": "http://www.amazon.com/Redesign-Extension-Smashing-Book-Books-ebook/dp/B0085MEMA4/ref=sr_1_2?s=books&ie=UTF8&qid=1410893882&sr=1-2&keywords=smashing+book+3",
+            "author": "Smashing Magazine",
+            "cover": "assets/img/SmashingBook3.jpg"
+        },
+        {
+            "title": "Steve Jobs",
+            "link": "http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_1?s=books&ie=UTF8&qid=1410894202&sr=1-1&keywords=steve+jobs",
+            "author": "Walter Isaacson",
+            "cover": "assets/img/SteveJobs.jpeg"
+        },
+        {
+            "title": "The Smashing Book 2",
+            "link": "http://www.amazon.com/Smashing-Book-Digital-Books-ebook/dp/B006PHOLRU/ref=sr_1_18?s=books&ie=UTF8&qid=1410893538&sr=1-18&keywords=smashing+magazine",
+            "author": "Smashing Magazine",
+            "cover": "assets/img/SmashingBook2.jpg"
+        },
+        {
+            "title": "Visual Gramar",
+            "link": "http://www.amazon.com/Visual-Grammar-Design-Briefs-Christian/dp/1568985819/ref=sr_1_1?s=books&ie=UTF8&qid=1410894760&sr=1-1&keywords=Visual+GRammar",
+            "author": "Christian Leborg",
+            "cover": "assets/img/VisualGrammar.jpeg"
+        },
+        {
+            "title": "Thinking With Type",
+            "link": "http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/ref=sr_1_1?s=books&ie=UTF8&qid=1410894887&sr=1-1&keywords=Thinking+with+type",
+            "author": "Ellen Lupton",
+            "cover": "assets/img/ThinkingWithType.jpeg"
+        }
+    ],
+    "toRead": [
+        {
+            "title": "Implementing DDD",
+            "link": "http://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577/ref=sr_1_1?s=books&ie=UTF8&qid=1410894043&sr=1-1&keywords=implementing+domain-driven+design",
+            "author": "Eric Evans",
+            "cover": "assets/img/ImplementingDomainDrivenDesign.jpeg"
+        },
+        {
+            "title": "Refactoring Existing code",
+            "link": "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/ref=sr_1_1?s=books&ie=UTF8&qid=1410894287&sr=1-1&keywords=refactoring",
+            "author": "Martin Fowler",
+            "cover": "assets/img/Refactoring.jpeg"
+        },
+        {
+            "title": "Agile Software development",
+            "link": "http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/ref=la_B000APG87E_1_2?s=books&ie=UTF8&qid=1410894443&sr=1-2",
+            "author": "Robert C. Martin, Aka, UncleBob",
+            "cover": "assets/img/AgileSoftwareDev.jpeg"
+        },
+        {
+            "title": "The Clean Coder",
+            "link": "http://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=la_B000APG87E_1_3?s=books&ie=UTF8&qid=1410894443&sr=1-3",
+            "author": "Robert C. Martin, Aka, UncleBob",
+            "cover": "assets/img/CleanCoder.jpeg"
+        },
+        {
+            "title": "Head First Design Patterns",
+            "link": "http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124",
+            "author": "Eric Freeman",
+            "cover": "assets/img/HeadFirstDesignPatterns.jpeg"
+        }
+    ]
+}
