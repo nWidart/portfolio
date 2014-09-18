@@ -1,4 +1,4 @@
-title: Database Exporter package review
+title: DbExporter package review
 slug: db-exporter-package-review
 status: published
 date: 12 sep 2014
@@ -9,7 +9,7 @@ meta-description: DbExporter lets you export your database structure as a migrat
 
 
 
-In this article I'll go over my [Database Exporter](https://github.com/nWidart/DbExporter) package. Why use it, how it can be usefull in your projects and finally how to use it.
+In this article I'll go over my [DbExporter](https://github.com/nWidart/DbExporter) package. Why use it, how it can be usefull in your projects and finally how to use it.
 
 ## What is DbExporter
 
