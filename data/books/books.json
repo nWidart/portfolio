@@ -75,6 +75,12 @@
             "link": "http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124",
             "author": "Eric Freeman",
             "cover": "assets/img/HeadFirstDesignPatterns.jpeg"
+        },
+        {
+            "title": "Object Design: Roles, Responsibilities, and Collaborations",
+            "link": "http://www.amazon.com/Object-Design-Roles-Responsibilities-Collaborations/dp/0201379430/ref=la_B001IQXNWC_1_1?s=books&ie=UTF8&qid=1411229231&sr=1-1",
+            "author": "Rebecca Wirfs-Brock",
+            "cover": "assets/img/ObjectDesign.jpeg"
         }
     ]
 }
