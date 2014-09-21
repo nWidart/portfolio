@@ -15,6 +15,12 @@
             "cover": "assets/img/cleanCode.jpeg"
         },
         {
+            "title": "Building APIs you won't hate",
+            "link": "https://leanpub.com/build-apis-you-wont-hate",
+            "author": "Phil Sturgeon",
+            "cover": "assets/img/BuildApisYouWontHate.png"
+        },
+        {
             "title": "From Apprentice To Artisan",
             "link": "https://leanpub.com/laravel",
             "author": "Taylor Otwell",
