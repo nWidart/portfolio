@@ -15,6 +15,18 @@
             "cover": "assets/img/cleanCode.jpeg"
         },
         {
+            "title": "From Apprentice To Artisan",
+            "link": "https://leanpub.com/laravel",
+            "author": "Taylor Otwell",
+            "cover": "assets/img/FromApprenticeToArtisan.jpeg"
+        },
+        {
+            "title": "Laravel Testing Decoded",
+            "link": "https://leanpub.com/laravel-testing-decoded",
+            "author": "Jeffrey Way",
+            "cover": "assets/img/LaravelTestingDecoded.jpeg"
+        },
+        {
             "title": "The Smashing Book 3",
             "link": "http://www.amazon.com/Redesign-Extension-Smashing-Book-Books-ebook/dp/B0085MEMA4/ref=sr_1_2?s=books&ie=UTF8&qid=1410893882&sr=1-2&keywords=smashing+book+3",
             "author": "Smashing Magazine",
