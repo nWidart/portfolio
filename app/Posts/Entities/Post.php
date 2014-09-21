@@ -1,13 +1,12 @@
 <?php namespace Nwidart\Posts\Entities;
 
 use Carbon\Carbon;
-use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Kurenai\DocumentParser;
-use Illuminate\Filesystem\Filesystem as FileSys;
+use Illuminate\Filesystem\Filesystem;
 use stdClass;
 use Michelf\MarkdownExtra;
 
@@ -17,20 +16,15 @@ class Post
      * @var Filesystem
      */
     private $finder;
-    /**
-     * @var FileSys
-     */
-    private $fileSys;
 
-    public function __construct(Filesystem $finder, FileSys $fileSys)
+    public function __construct(Filesystem $finder)
     {
         $this->finder = $finder;
-        $this->fileSys = $fileSys;
     }
     public function all()
     {
         $postCollection = new Collection;
-        foreach ($this->finder->allFiles('posts') as $i => $file) {
+        foreach ($this->finder->allFiles(__DIR__.'/../../../data/posts') as $i => $file) {
             if (!$this->isMarkdownFile($file)) {
                 continue;
             }
@@ -72,7 +66,7 @@ class Post
 
     private function isMarkdownFile($file)
     {
-        return $this->fileSys->extension($file) === 'md';
+        return $this->finder->extension($file) === 'md';
     }
 
     /**
