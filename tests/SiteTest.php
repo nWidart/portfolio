@@ -12,6 +12,8 @@ class ExampleTest extends TestCase
         $crawler = $this->client->request('GET', '/');
 
         $this->assertTrue($this->client->getResponse()->isOk());
+
+        $this->assertCount(1, $crawler->filter('h1:contains("Hi,")'));
     }
 
     /** @test */
@@ -25,6 +27,16 @@ class ExampleTest extends TestCase
     }
 
     /** @test */
+    public function showsBlogPage()
+    {
+        $crawler = $this->client->request('GET', '/blog');
+
+        $this->assertTrue($this->client->getResponse()->isOk());
+
+        $this->assertCount(1, $crawler->filter('h1:contains("Blog")'));
+    }
+
+    /** @test */
     public function showsProjectsPage()
     {
         $crawler = $this->client->request('GET', '/projects');
@@ -32,5 +44,15 @@ class ExampleTest extends TestCase
         $this->assertTrue($this->client->getResponse()->isOk());
 
         $this->assertCount(1, $crawler->filter('h1:contains("Projects")'));
+    }
+
+    /** @test */
+    public function showsBooksPage()
+    {
+        $crawler = $this->client->request('GET', '/book-library');
+
+        $this->assertTrue($this->client->getResponse()->isOk());
+
+        $this->assertCount(1, $crawler->filter('h2:contains("Books I\'ve read")'));
     }
 }
