@@ -5,12 +5,12 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.3.*",
-        "illuminate/html": "4.3.*@dev",
+		"laravel/framework": "~5.0",
+        "illuminate/html": "~5.0",
         "daylerees/kurenai": "1.0.*",
         "michelf/php-markdown": "1.*",
         "nwidart/httpstatus": "dev-master",
-        "graham-campbell/github": "~0.1",
+        "graham-campbell/github": "~2.0",
         "thujohn/twitter": "dev-master"
 	},
 	"require-dev": {
