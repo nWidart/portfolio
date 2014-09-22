@@ -7,7 +7,7 @@ class PushEvent extends BaseEventClass implements GithubEventInterface
 {
     public function handle($eventData)
     {
-        $link = $this->getCommitLink($eventData['actor']['login'], $this->getRepositoryName($eventData['repo']['name']), $eventData['payload']['head']);
+        $link = $this->getCommitLink($this->getUsername($eventData['repo']['name']), $this->getRepositoryName($eventData['repo']['name']), $eventData['payload']['head']);
         return [
             'time' => $this->getDate($eventData['created_at']),
             'actor' => $eventData['actor']['login'],
@@ -21,7 +21,7 @@ class PushEvent extends BaseEventClass implements GithubEventInterface
     private function getCommitLink($username, $repository, $ref)
     {
         if (!Cache::has("$username-commitLink")) {
-            $commitLink = GitHub::api('repo')->commits()->show($username, $repository, $ref)['html_url'];
+            $commitLink = Github::api('repo')->commits()->show($username, $repository, $ref)['html_url'];
             Cache::put("$username-commitLink", $commitLink, 120);
         }
 
@@ -31,5 +31,10 @@ class PushEvent extends BaseEventClass implements GithubEventInterface
     private function getRepositoryName($fullRepoName)
     {
         return explode('/', $fullRepoName)[1];
+    }
+
+    private function getUsername($fullRepoName)
+    {
+        return explode('/', $fullRepoName)[0];
     }
 }
