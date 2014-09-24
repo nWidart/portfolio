@@ -56,5 +56,25 @@ Projects | @parent
             <?php endforeach; ?>
         </ul>
     </div>
+    <div class="col-md-4">
+        <h2>Projects I contributed to</h2>
+        <ul class="bullet">
+            <li>
+                <a href="https://github.com/KnpLabs/php-github-api" target="_blank">Php Github Api</a><br/>
+                This is a Github API made by Knp-Labs.
+            </li>
+            <li>
+                <a href="https://github.com/pingpong-labs/modules" target="_blank">Modules</a><br/>
+                A very interesting package to separate your app logic into modules.
+            </li>
+            <li>
+                <a href="https://github.com/dineshrabara/barcode" target="_blank">Barcode</a><br/>
+                A package to generate all types of barcodes.
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+
 </div>
 @stop
