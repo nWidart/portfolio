@@ -68,6 +68,10 @@ Projects | @parent
                 A very interesting package to separate your app logic into modules.
             </li>
             <li>
+                <a href="https://github.com/pingpong-labs/modules" target="_blank">Twitter l4</a><br/>
+                A PHP Twitter API wrapper for laravel.
+            </li>
+            <li>
                 <a href="https://github.com/dineshrabara/barcode" target="_blank">Barcode</a><br/>
                 A package to generate all types of barcodes.
             </li>
