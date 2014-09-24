@@ -1,9 +1,16 @@
 <?php namespace Nwidart\Services\Activity\Github\Events;
 
-class CommitCommentEvent implements GithubEventInterface
+class CommitCommentEvent extends BaseEventClass implements GithubEventInterface
 {
     public function handle($eventData)
     {
-        // TODO: Implement handle() method.
+        return [
+            'time' => $this->getDate($eventData['created_at']),
+            'actor' => $eventData['actor']['login'],
+            'actor_avatar' => $eventData['actor']['avatar_url'],
+            'verb' => 'commented on ',
+            'action_object' => $eventData['repo']['name'],
+            'target' => $eventData['payload']['comment']['html_url']
+        ];
     }
 }
