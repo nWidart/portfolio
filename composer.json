@@ -10,7 +10,7 @@
         "daylerees/kurenai": "1.0.*",
         "michelf/php-markdown": "1.*",
         "nwidart/httpstatus": "dev-master",
-        "graham-campbell/github": "~2.0",
+        "graham-campbell/github": "~2.0@dev",
         "thujohn/twitter": "dev-master"
 	},
 	"require-dev": {

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d43a9eae44f3b03476b50abe4db028e",
+    "hash": "18d706c7f2663f9c4aea296ed36f23dd",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -250,12 +250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-GitHub.git",
-                "reference": "d6000d4debdda3f32a6189cb5f9835e258255232"
+                "reference": "efd808539bfb0c5e1f11ddbbc4c36c3c33e8a198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-GitHub/zipball/d6000d4debdda3f32a6189cb5f9835e258255232",
-                "reference": "d6000d4debdda3f32a6189cb5f9835e258255232",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-GitHub/zipball/efd808539bfb0c5e1f11ddbbc4c36c3c33e8a198",
+                "reference": "efd808539bfb0c5e1f11ddbbc4c36c3c33e8a198",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
                 "laravel",
                 "php-github-api"
             ],
-            "time": "2014-09-21 16:07:45"
+            "time": "2014-09-22 19:00:17"
         },
         {
             "name": "graham-campbell/manager",
@@ -3091,6 +3091,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "nwidart/httpstatus": 20,
+        "graham-campbell/github": 20,
         "thujohn/twitter": 20,
         "mockery/mockery": 20
     },
