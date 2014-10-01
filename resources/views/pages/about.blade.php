@@ -17,7 +17,10 @@ About | @parent
         </p>
 
         <p>
-        Nicolas Widart, born 23th september 1990, lives in a little town called Kampenhout, located in Belgium. Nicolas speaks 3 languages: French, Dutch and English. The last 2 years of high school he studied IT Management. After that he went to Haute Ecole Albert Jaquart university to follow "Webdesign & multimedia".
+        Nicolas Widart, born 23th september 1990, lives in a little town called Kampenhout, located in Belgium. Nicolas speaks 3 languages: French, Dutch and English. The last 2 years of high school he studied IT Management. After that he went to Haute Ecole Albert Jaquart university to follow "Webdesign & multimedia". He graduated top of the section with a mention of the jury.
+        </p>
+        <p>
+            Quickly after, in august 2013 Nicolas started working at a webdesign agency called '<a href="http://www.dogstudio.be" target="_blank">Dogstudio</a>', where he works as a full time <strong>php developer</strong>.
         </p>
 
         <p>Nicolas loves listening to all different kinds of music, but especially the electro and r&b style. In hes spare time he's going to the movies to watch the latest movie out.</p>
