@@ -11,7 +11,7 @@ This article will go over how I used the view creators and [view composers](http
 
 To explain the context a bit, I'm building re-useable parts of an application, to give me the ability to quickly create an administration interface for clients. To achieve this I'm using the   [Pingpong/Modules](https://github.com/pingpong-labs/modules) package. You can go over the modules I'm building over at my dedicated organisation on [github](https://github.com/nWidart-Modules). 
 
-The basic difference between a View Creator and a View Composer is when it's called. A View Creator is called directly when the view is instantiated. Compared to a View Composer, is called when the view is rendered. We can take adventage of this to create a menu items using Laravals Collection class.
+The basic difference between a View Creator and a View Composer is when it's called. A View Creator is called directly when the view is instantiated. Compared to a View Composer, is called when the view is rendered. We can take adventage of this fact to create menu items using Laravals Collection class.
 
 **The goal** was to give the ability to each module to send what navigation items it needs to a '[Core](https://github.com/nWidart-Modules/Core)' module. This way to core module doens't care about what other modules there are.
 
