@@ -7,8 +7,10 @@ Projects | @parent
 @section('content')
 <div class="row">
     <div class="col-md-7">
-        <h1>Projects</h1>
-        <h2>Main projects</h2>
+        <h2>
+            Main projects
+            <a href="https://github.com/nWidart" target="_blank" class="btn btn-sm pull-right btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
+        </h2>
         <ul class="bullet">
             <li>
                 <a href="https://github.com/nWidart/DbExporter" target="_blank">DbExporter</a><br/>
@@ -40,7 +42,28 @@ Projects | @parent
                 <a href="http://forum.tplpc.com">Tout Pour Le PC</a>
             </li>
         </ul>
-        <a href="https://github.com/nWidart" target="_blank" class="btn btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View all my projects on GitHub</a>
+        <h2>Modules Project</h2>
+        <p class="small">The modules project is a project I started early september 2014. Its goal is to have a collection of independent modules which together, create an admin dashboard very quickly. I've created a seperate organisation on github named <a href="https://github.com/nWidart-Modules" target="_blank">nWidart-Modules</a> which contains all my current modules. Here is a list of the modules I've developed so far:</p>
+        <ul class="bullet">
+            <li>
+                <a href="https://github.com/nWidart-Modules/Core" target="_blank">Core</a>
+            </li>
+            <li>
+                <a href="https://github.com/nWidart-Modules/Dashboard" target="_blank">Dashboard</a>
+            </li>
+            <li>
+                <a href="https://github.com/nWidart-Modules/Session" target="_blank">Session</a>
+            </li>
+            <li>
+                <a href="https://github.com/nWidart-Modules/User" target="_blank">User</a>
+            </li>
+            <li>
+                <a href="https://github.com/nWidart-Modules/Workshop" target="_blank">Workshop</a>
+            </li>
+            <li>
+                <a href="https://github.com/nWidart-Modules/Blog" target="_blank">Blog</a>
+            </li>
+        </ul>
     </div>
     <div class="col-md-4">
         <h2>Latest Activity</h2>
