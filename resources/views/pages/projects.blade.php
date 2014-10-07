@@ -42,7 +42,10 @@ Projects | @parent
                 <a href="http://forum.tplpc.com" target="_blank">Tout Pour Le PC</a>
             </li>
         </ul>
-        <h2>Modules Project</h2>
+        <h2>
+            Modules Project
+            <a href="https://github.com/nWidart-Modules" target="_blank" class="btn btn-sm pull-right btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View the modules project on GitHub</a>
+        </h2>
         <p class="small">The modules project is a project I started early september 2014. Its goal is to have a collection of independent modules which together, create an admin dashboard very quickly. I've created a seperate organisation on github named <a href="https://github.com/nWidart-Modules" target="_blank">nWidart-Modules</a> which contains all my current modules. Here is a list of the modules I've developed so far:</p>
         <ul class="bullet">
             <li>
