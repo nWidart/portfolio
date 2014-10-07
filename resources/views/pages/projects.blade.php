@@ -39,7 +39,7 @@ Projects | @parent
         <h2>Side projects websites</h2>
         <ul class="bullet">
             <li>
-                <a href="http://forum.tplpc.com">Tout Pour Le PC</a>
+                <a href="http://forum.tplpc.com" target="_blank">Tout Pour Le PC</a>
             </li>
         </ul>
         <h2>Modules Project</h2>
