@@ -78,6 +78,9 @@ blockquote {
   width: 101px;
   margin-right: 15px;
 }
+p.small {
+  font-size: 1.1em;
+}
 body {
   background: #ecf0f1;
   padding-top: 80px;
