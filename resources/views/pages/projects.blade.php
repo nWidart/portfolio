@@ -68,7 +68,7 @@ Projects | @parent
         </ul>
     </div>
     <div class="col-md-4">
-        <h2>Latest Activity</h2>
+        <h3>Latest Activity</h3>
         <ul class="activity">
             <?php foreach($activities as $activity): ?>
                 <li>
@@ -82,7 +82,7 @@ Projects | @parent
         </ul>
     </div>
     <div class="col-md-4">
-        <h2>Projects I contributed to</h2>
+        <h3>Projects I contributed to</h3>
         <ul class="bullet">
             <li>
                 <a href="https://github.com/KnpLabs/php-github-api" target="_blank">Php Github Api</a><br/>
