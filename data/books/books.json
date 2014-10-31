@@ -99,6 +99,12 @@
             "link": "http://www.amazon.com/Object-Design-Roles-Responsibilities-Collaborations/dp/0201379430/ref=la_B001IQXNWC_1_1?s=books&ie=UTF8&qid=1411229231&sr=1-1",
             "author": "Rebecca Wirfs-Brock",
             "cover": "assets/img/ObjectDesign.jpeg"
+        },
+        {
+            "title": "Streamlined Object Modeling: Patterns, Rules, and Implementation",
+            "link": "http://www.amazon.com/gp/product/B0051TX2SW/",
+            "author": "Jill Nicola",
+            "cover": "assets/img/streamlined-object-modeling.jpg"
         }
     ]
 }
