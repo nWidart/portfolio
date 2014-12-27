@@ -43,24 +43,33 @@ Projects | @parent
             </li>
         </ul>
         <h2>
-            Modules Project
-            <a href="https://github.com/nWidart-Modules" target="_blank" class="btn btn-sm pull-right btn-primary"><i class="glyphicon glyphicon-share-alt"></i> View the modules project on GitHub</a>
+            AsgardCMS
+            <a href="http://www.asgardcms.com" target="_blank" class="btn btn-sm pull-right btn-primary"><i class="glyphicon glyphicon-share-alt"></i> Go to AsgardCMS website</a>
         </h2>
-        <p class="small">The modules project is a project I started early september 2014. Its goal is to have a collection of independent modules which together, create an admin dashboard very quickly. I've created a seperate organisation on github named <a href="https://github.com/nWidart-Modules" target="_blank">nWidart-Modules</a> which contains all my current modules. </p>
-        <p class="small">The main <a href="https://github.com/nWidart-Modules/Platform" target="_blank">platform application</a> can be used to install the complete CMS easily.</p>
+        <p class="small">The AsgardCMS project is a project I started early september 2014. Its goal is to have a collection of independent modules which together, create an admin dashboard very quickly. After a couple of months of development I saw an opportunity to create an open source content management system, which became AsgardCMS. Indeed the laravel community lacks complete and modular <em>open source</em> CMSs.</p>
+        <p class="small">The main <a href="https://github.com/nWidart-Modules/Platform" target="_blank">platform application</a> (private while in beta) can be used to install the complete CMS easily.</p>
         <p class="small">Here is a list of the independent modules I've developed so far:</p>
         <ul class="bullet">
             <li>
-                <a href="https://github.com/nWidart-Modules/Core" target="_blank">Core</a>
+                <a href="https://github.com/AsgardCMS/Core" target="_blank">Core</a>
             </li>
             <li>
-                <a href="https://github.com/nWidart-Modules/Dashboard" target="_blank">Dashboard</a>
+                <a href="https://github.com/AsgardCMS/Dashboard" target="_blank">Dashboard</a>
             </li>
             <li>
-                <a href="https://github.com/nWidart-Modules/User" target="_blank">User</a>
+                <a href="https://github.com/AsgardCMS/User" target="_blank">User</a>
             </li>
             <li>
-                <a href="https://github.com/nWidart-Modules/Workshop" target="_blank">Workshop</a>
+                <a href="https://github.com/AsgardCMS/Workshop" target="_blank">Workshop</a>
+            </li>
+            <li>
+                <a href="https://github.com/AsgardCMS/Page" target="_blank">Page</a>
+            </li>
+            <li>
+                <a href="https://github.com/AsgardCMS/Menu" target="_blank">Menu</a>
+            </li>
+            <li>
+                <a href="https://github.com/AsgardCMS/Media" target="_blank">Media</a>
             </li>
             <li>
                 <a href="https://github.com/nWidart-Modules/Blog" target="_blank">Blog</a>
