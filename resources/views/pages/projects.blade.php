@@ -72,7 +72,7 @@ Projects | @parent
                 <a href="https://github.com/AsgardCMS/Media" target="_blank">Media</a>
             </li>
             <li>
-                <a href="https://github.com/nWidart-Modules/Blog" target="_blank">Blog</a>
+                <a href="https://github.com/AsgardCMS/Blog" target="_blank">Blog</a>
             </li>
         </ul>
     </div>
