@@ -33,8 +33,9 @@ About | @parent
             <li>PHP</li>
             <li>Laravel</li>
             <li>Clean code (SOLID principles, clean architecture, ...)</li>
-            <li>Git Source Control</li>
-            <li>Svn Source Control</li>
+            <li>ElasticSearch</li>
+            <li>Domain Driven Design</li>
+            <li>Git/Svn Source Control</li>
             <li>eCommerce websites</li>
             <li>Wordpress</li>
             <li>HTML5/CSS5 & javascript (jQuery)</li>
