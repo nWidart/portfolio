@@ -8,7 +8,7 @@ About | @parent
 <div class="row">
     <div class="col-md-12">
         <h1>About me</h1>
-        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right"/>
+        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right" style="width: 20%;"/>
         <p>
         I'm <strong>PHP developer</strong> <br/>
         I'm a <strong>Laravel</strong> evangelist <br/>
@@ -39,7 +39,7 @@ About | @parent
             <li>ElasticSearch</li>
             <li>Domain Driven Design</li>
             <li>Git/Svn Source Control</li>
-            <li>eCommerce websites</li>
+            <li>E-commerce websites</li>
             <li>Wordpress</li>
             <li>HTML5/CSS5 & javascript (jQuery)</li>
             <li>Basic server management & unix commands</li>
