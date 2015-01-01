@@ -79,6 +79,8 @@ I hope this post hsa given you the necessary information about Event Sourcing to
 
 Please note that this post will be continually kept up to date as I'm finding more resources about event sourcing.
 
+Please don't hesite to share your resourcing in the comments below, and I will add them to the list.
+
 
 
 
