@@ -75,7 +75,7 @@ This is the basic idea of event sourcing.
 
 ## Conclusion
 
-I hope this post hsa given you the necessary information about Event Sourcing to at least make you curious and give you the links to resources to learn more about event sourcing and cqrs.
+I hope this post has given you the necessary information about Event Sourcing to at least make you **curious** and give you the links to resources to learn more about event sourcing and cqrs.
 
 Please note that this post will be continually kept up to date as I'm finding more resources about event sourcing.
 
