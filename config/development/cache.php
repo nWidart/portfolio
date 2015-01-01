@@ -1,4 +1,4 @@
 <?php
 return [
-    'driver' => 'file',
+    'driver' => 'array',
 ];
