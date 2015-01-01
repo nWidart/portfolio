@@ -41,7 +41,7 @@ $(document).ready(function() {
 	         type: "GET",
 	         url: "http://" + disqus_shortname + ".disqus.com/embed.js",
 	         dataType: "script",
-	         cache: true
+	         cache: false
 	     });
 	     $(this).fadeOut();
 	});
