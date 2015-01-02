@@ -61,6 +61,7 @@ This is the basic idea of event sourcing.
 ### Blog posts
 
 - [Practical Event Sourcing](http://verraes.net/2014/03/practical-event-sourcing/) by Mathias Verraes.
+- [Event Sourcing](http://martinfowler.com/eaaDev/EventSourcing.html) by Martin Fowler
 
 ### Code examples
 
