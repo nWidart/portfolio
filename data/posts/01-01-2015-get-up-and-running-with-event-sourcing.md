@@ -54,6 +54,10 @@ This is the basic idea of event sourcing.
 - [Practical Event Sourcing](http://verraes.net/2014/03/practical-event-sourcing/) by Mathias Verraes
 - [CQRS/DDD](https://www.youtube.com/watch?v=KXqrBySgX-s) by Greg Young
 
+### Slides
+
+- [Event Sourcing in practice](http://ookami86.github.io/event-sourcing-in-practice/)
+
 ### Courses
 
 - [GregYoung 8 CQRS Class](https://www.youtube.com/watch?v=whCk1Q87_ZI) - This is a 6h30 course by Grey Young on CQRS and Event Sourcing.
