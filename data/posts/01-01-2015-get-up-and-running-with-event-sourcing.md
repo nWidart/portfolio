@@ -71,6 +71,10 @@ This is the basic idea of event sourcing.
 
 - [EventCentric.Core](https://github.com/event-centric/EventCentric.Core) Event Sourcing and CQRS in PHP
 
+### Packages
+
+- [Broadway](https://github.com/qandidate-labs/broadway) (php)
+
 ### Other
 
 - [DDDinPHP](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!forum/dddinphp) google group
