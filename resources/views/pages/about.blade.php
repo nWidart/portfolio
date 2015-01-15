@@ -37,6 +37,7 @@ About | @parent
             <li>Laravel</li>
             <li>Clean code (SOLID principles, clean architecture, ...)</li>
             <li>ElasticSearch</li>
+            <li>Doctrine ORM</li>
             <li>Domain Driven Design</li>
             <li>Git/Svn Source Control</li>
             <li>E-commerce websites</li>
