@@ -74,6 +74,7 @@ This is the basic idea of event sourcing.
 ### Packages
 
 - [Broadway](https://github.com/qandidate-labs/broadway) (php)
+- [Laravel Broadway](https://github.com/nWidart/Laravel-broadway)
 
 ### Other
 
