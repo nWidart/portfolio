@@ -70,11 +70,15 @@ This is the basic idea of event sourcing.
 ### Code examples
 
 - [EventCentric.Core](https://github.com/event-centric/EventCentric.Core) Event Sourcing and CQRS in PHP
+- [Laravel Broadway demo app](https://github.com/nWidart/Laravel-Broadway-Demo) (mine)
 
 ### Packages
 
 - [Broadway](https://github.com/qandidate-labs/broadway) (php)
-- [Laravel Broadway](https://github.com/nWidart/Laravel-broadway)
+- [Laravel Broadway](https://github.com/nWidart/Laravel-broadway) (mine)
+- [litecqrs-php](https://github.com/beberlei/litecqrs-php)
+
+
 
 ### Other
 
