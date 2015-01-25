@@ -26,7 +26,7 @@ Projects | @parent
             </li>
             <li>
                 <a href="https://github.com/nWidart/Laravel-broadway" target="_blank">Laravel Broadway</a><br/>
-                This is an adapter packge to use <a href="https://github.com/qandidate-labs/broadway">Broadway</a> inside Laravel. Broadway is an infrastructure and testing helpers for creating CQRS and event sourced applications.
+                This is an adapter package to use <a href="https://github.com/qandidate-labs/broadway">Broadway</a> inside Laravel. Broadway is an infrastructure and testing helpers for creating CQRS and event sourced applications.
 
             </li>
             <li>
