@@ -105,6 +105,12 @@
       "link": "http://www.amazon.com/gp/product/B0051TX2SW/",
       "author": "Jill Nicola",
       "cover": "assets/img/streamlined-object-modeling.jpg"
+    },
+    {
+      "title": "The Pragmatic Programmer: From Journeyman to Master",
+      "link": "http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&ie=UTF8&qid=1421872801&sr=1-1&keywords=the+pragmatic+programmer",
+      "author": "Andrew Hunt",
+      "cover": "assets/img/The-Pragmatic-Programmer.jpeg"
     }
   ]
 }
