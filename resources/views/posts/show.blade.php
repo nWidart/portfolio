@@ -33,18 +33,20 @@
 @stop
 
 @section('scripts')
-<script>
-$(document).ready(function() {
-	$('.showDisqus').on('click', function() {
-		var disqus_shortname = 'nicolaswidart';
-		$.ajax({
-	         type: "GET",
-	         url: "http://" + disqus_shortname + ".disqus.com/embed.js",
-	         dataType: "script",
-	         cache: false
-	     });
-	     $(this).fadeOut();
-	});
-});
-</script>
+    <?php if (App::environment() == 'production'): ?>
+    <script>
+    $(document).ready(function() {
+        $('.showDisqus').on('click', function() {
+            var disqus_shortname = 'nicolaswidart';
+            $.ajax({
+                 type: "GET",
+                 url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+                 dataType: "script",
+                 cache: false
+             });
+             $(this).fadeOut();
+        });
+    });
+    </script>
+    <?php endif; ?>
 @stop
