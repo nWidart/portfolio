@@ -57,6 +57,7 @@ This is the basic idea of event sourcing.
 ### Slides
 
 - [Event Sourcing in practice](http://ookami86.github.io/event-sourcing-in-practice/)
+- [Willem Jan, on Event sourcing and CQRS](http://talks.willem-jan.net/talks/domcode/2015-01-27--eventsourcing-and-cqrs.html#/)
 
 ### Courses
 
