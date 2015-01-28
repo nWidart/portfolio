@@ -67,6 +67,11 @@ This is the basic idea of event sourcing.
 
 - [Practical Event Sourcing](http://verraes.net/2014/03/practical-event-sourcing/) by Mathias Verraes.
 - [Event Sourcing](http://martinfowler.com/eaaDev/EventSourcing.html) by Martin Fowler
+- [CQRS](http://martinfowler.com/bliki/CQRS.html) by Martin Fowler
+- [Why use event sourcing](http://codebetter.com/gregyoung/2010/02/20/why-use-event-sourcing/) by Greg Young
+- [CQRS and event sourcing](http://codebetter.com/gregyoung/2010/02/13/cqrs-and-event-sourcing/) by Greg Young
+- [Domain Modeling](http://www.axonframework.org/docs/2.3/domain-modeling.html)
+- [Qandidate Labs](http://labs.qandidate.com/)
 
 ### Code examples
 
