@@ -33,7 +33,7 @@
 @stop
 
 @section('scripts')
-    <?php if (App::environment() == true): ?>
+    <?php if (App::environment() == 'production'): ?>
     <script>
     $(document).ready(function() {
         $('.showDisqus').on('click', function() {
