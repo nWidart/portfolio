@@ -72,6 +72,8 @@ This is the basic idea of event sourcing.
 - [CQRS and event sourcing](http://codebetter.com/gregyoung/2010/02/13/cqrs-and-event-sourcing/) by Greg Young
 - [Domain Modeling](http://www.axonframework.org/docs/2.3/domain-modeling.html)
 - [Qandidate Labs](http://labs.qandidate.com/)
+- [CQRS the simple way with eventstore and elasticsearch](http://blog.tomasjansson.com/cqrs-the-simple-way-with-eventstore-and-elasticsearch-project-structure/) By Tomas Jansson. A very complete guide about structuring an application.
+- [Vaughn Vernon](https://vaughnvernon.co/) Blog by the author of the red book
 
 ### Code examples
 
