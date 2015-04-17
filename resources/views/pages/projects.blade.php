@@ -92,6 +92,9 @@ Projects | @parent
             <li>
                 <a href="https://github.com/AsgardCMS/Blog" target="_blank">Blog</a>
             </li>
+            <li>
+                <a href="https://github.com/AsgardCMS/Block" target="_blank">Block</a>
+            </li>
         </ul>
     </div>
     <div class="col-md-4">
