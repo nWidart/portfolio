@@ -30,8 +30,21 @@ Projects | @parent
 
             </li>
             <li>
-                <a href="https://github.com/nWidart/Modules" target="_blank">Modules</a><br/>
-                A package to quickily create the structure for modules in Laravel.</li>
+                <a href="https://github.com/addappio/breezometer-php" target="_blank">Breezometer-php</a><br/>
+                A PHP client the <a href="http://breezometer.com/" target="_blank">Breezometer</a> service.
+            </li>
+            <li>
+                <a href="https://github.com/addappio/breezometer-laravel" target="_blank">Breezometer-laravel</a><br/>
+                Laravel integration for my Breezometer-php package.
+            </li>
+            <li>
+                <a href="https://github.com/nWidart/MoneyFormatter" target="_blank">MoneyFormatter</a><br/>
+                A package used for money formatting.
+            </li>
+            <li>
+                <a href="https://github.com/nWidart/MoneyFormatter-Laravel" target="_blank">MoneyFormatter-laravel</a><br/>
+                Laravel integration for my MoneyFormatter Package.
+            </li>
             <li>
                 <a href="https://github.com/nWidart/Laravel-forecast" target="_blank">Laravel-forecast</a><br/>
                 Laravel-forecast provides a service provider and a facade arround the Forecast-php wrapper.
