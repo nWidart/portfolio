@@ -189,6 +189,20 @@ I've added an option to keep the latest 5 releases, this defaults to 3.
 
 You can now run the deployment script using `dep deploy staging`.
 
+### Nginx
+
+Your nginx configuration should be modified sliglty. First you'll need to change the document root to the **current** directory, which is a symlink to the latest release of your application. For laravel projects this would be `current/public`
+
+``` .language-bash
+/home/forge/yoursite.com/current/public
+```
+
+Because this is a symlink, you also need to add the following in the `server` block:
+
+``` .language-bash
+disable_symlinks off;
+```
+
 ### Nice to haves
 
 If something goes wrong with your latest release simply rollback:
