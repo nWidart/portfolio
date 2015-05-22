@@ -85,7 +85,7 @@ p.small {
   list-style: initial;
 }
 h4 {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 body {
   background: #ecf0f1;
