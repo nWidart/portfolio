@@ -81,6 +81,9 @@ blockquote {
 p.small {
   font-size: 1.1em;
 }
+.post ul {
+  list-style: initial;
+}
 body {
   background: #ecf0f1;
   padding-top: 80px;

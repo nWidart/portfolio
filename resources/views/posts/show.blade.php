@@ -13,7 +13,7 @@
 @stop
 
 @section('content')
-<div class="row">
+<div class="row post">
     <div class="col-lg-12">
         <span class="linkBack">
             <a href="{{ URL::route('blog.index') }}"><i class="glyphicon glyphicon-chevron-left"></i> Back to post list</a>
