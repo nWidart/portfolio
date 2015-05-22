@@ -25,6 +25,11 @@
     </div>
 </div>
 <div class="row">
+    <p>
+        <strong>I'm available to work on new projects starting September! <a href="{{ URL::route('about') }}">Get in touch!</a></strong>
+    </p>
+</div>
+<div class="row">
     <div class="col-lg-12">
         <div id="disqus_thread"></div>
         <button class="showDisqus btn btn-primary" style="display: block; margin: 0 auto;">Show comments</button>
