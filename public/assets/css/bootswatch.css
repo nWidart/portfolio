@@ -84,6 +84,9 @@ p.small {
 .post ul {
   list-style: initial;
 }
+h4 {
+  font-size: 22px;
+}
 body {
   background: #ecf0f1;
   padding-top: 80px;
