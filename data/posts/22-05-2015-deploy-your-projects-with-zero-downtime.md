@@ -211,7 +211,7 @@ If something goes wrong with your latest release simply rollback:
 dep rollback staging
 ```
 
-Don't turst this yet ? Run the verbose mode to see what will be run on the server:
+Don't trust this yet ? Run the verbose mode to see what will be run on the server:
 
 ``` .language-bash
 dep deploy staging -vvv
