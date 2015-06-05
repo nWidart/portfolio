@@ -115,6 +115,10 @@ Projects | @parent
         <h3>Projects I contributed to</h3>
         <ul class="bullet">
             <li>
+                <a href="https://github.com/laravel/laravel" target="_blank">Laravel/laravel</a><br/>
+                The laravel/laravel application.
+            </li>
+            <li>
                 <a href="https://github.com/KnpLabs/php-github-api" target="_blank">Php Github Api</a><br/>
                 This is a Github API made by Knp-Labs.
             </li>
