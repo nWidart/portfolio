@@ -6,6 +6,6 @@ use Illuminate\Routing\Router;
 
 $router->group(['prefix' => 'blog'], function (Router $router) {
     $locale = LaravelLocalization::setLocale() ?: App::getLocale();
-    $router->get('posts', ['as' => $locale . '.blog', 'uses' => 'PublicController@index']);
-    $router->get('posts/{slug}', ['as' => $locale . '.blog.slug', 'uses' => 'PublicController@show']);
+    $router->get('/', ['as' => $locale . '.blog', 'uses' => 'PublicController@index']);
+    $router->get('{slug}', ['as' => $locale . '.blog.slug', 'uses' => 'PublicController@show']);
 });
