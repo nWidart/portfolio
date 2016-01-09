@@ -1,0 +1,21 @@
+{
+    "name": "Blog",
+    "alias": "blog",
+    "description": "A simple blog module with categories and tags",
+    "keywords": [],
+    "version": "1.12.0",
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Blog\\Providers\\BlogServiceProvider",
+        "Modules\\Blog\\Providers\\RouteServiceProvider"
+    ],
+    "widgets": [
+        "Modules\\Blog\\Widgets\\PostsWidget",
+        "Modules\\Blog\\Widgets\\CategoriesWidget",
+        "Modules\\Blog\\Widgets\\LatestPostsWidget"
+    ],
+    "files": [
+        "composers.php"
+    ]
+}
