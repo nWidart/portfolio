@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c55defde2d2216b3bea6102b9bacfec3",
-    "content-hash": "3c83616930fdec16a5bbdc528cc6b3a6",
+    "hash": "90b5f08efafb71412245e97d5fed66c6",
+    "content-hash": "7f5a7c49052527180514854036d9ea38",
     "packages": [
         {
             "name": "asgardcms/adminlte-theme",
@@ -42,44 +42,6 @@
                 "asgard-cms"
             ],
             "time": "2015-12-25 19:53:34"
-        },
-        {
-            "name": "asgardcms/blog-module",
-            "version": "1.12.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/AsgardCms/Blog.git",
-                "reference": "ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AsgardCms/Blog/zipball/ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf",
-                "reference": "ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.4"
-            },
-            "type": "asgard-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Widart",
-                    "email": "info@asgardcms.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A blog module for AsgardCMS.",
-            "keywords": [
-                "asgardcms",
-                "blog",
-                "journal"
-            ],
-            "time": "2015-12-21 19:01:51"
         },
         {
             "name": "asgardcms/core-module",
@@ -2219,52 +2181,6 @@
             "time": "2015-12-31 17:41:30"
         },
         {
-            "name": "laravel/homestead",
-            "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/homestead.git",
-                "reference": "e3b4a1903a2de46e085217a20e61465d18da7b63"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/e3b4a1903a2de46e085217a20e61465d18da7b63",
-                "reference": "e3b4a1903a2de46e085217a20e61465d18da7b63",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9",
-                "symfony/console": "~2.3|~3.0",
-                "symfony/process": "~2.3|~3.0"
-            },
-            "bin": [
-                "homestead"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-php-7": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Homestead\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "description": "A virtual machine for web artisans.",
-            "time": "2015-12-21 22:36:28"
-        },
-        {
             "name": "laravelcollective/html",
             "version": "v5.1.9",
             "source": {
@@ -2313,6 +2229,72 @@
                 }
             ],
             "time": "2015-11-28 08:27:09"
+        },
+        {
+            "name": "league/commonmark",
+            "version": "0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "3eb64850ee688623db494398a5284a7a4cdf7b47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/3eb64850ee688623db494398a5284a7a4cdf7b47",
+                "reference": "3eb64850ee688623db494398a5284a7a4cdf7b47",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.8"
+            },
+            "replace": {
+                "colinodell/commonmark-php": "*"
+            },
+            "require-dev": {
+                "erusev/parsedown": "~1.0",
+                "jgm/commonmark": "0.22",
+                "jgm/smartpunct": "0.22",
+                "michelf/php-markdown": "~1.4",
+                "mikehaertl/php-shellcommand": "~1.1.0",
+                "phpunit/phpunit": "~4.3|~5.0",
+                "scrutinizer/ocular": "^1.1",
+                "symfony/finder": "~2.3"
+            },
+            "bin": [
+                "bin/commonmark"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "http://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "homepage": "https://github.com/thephpleague/commonmark",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "parser"
+            ],
+            "time": "2015-11-04 14:24:41"
         },
         {
             "name": "league/csv",
@@ -4239,6 +4221,44 @@
     ],
     "packages-dev": [
         {
+            "name": "asgardcms/blog-module",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AsgardCms/Blog.git",
+                "reference": "ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AsgardCms/Blog/zipball/ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf",
+                "reference": "ed70f568dfa9b8bdcce271f8f769dea4ccc8cdcf",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4"
+            },
+            "type": "asgard-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Widart",
+                    "email": "info@asgardcms.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A blog module for AsgardCMS.",
+            "keywords": [
+                "asgardcms",
+                "blog",
+                "journal"
+            ],
+            "time": "2015-12-21 19:01:51"
+        },
+        {
             "name": "barryvdh/laravel-debugbar",
             "version": "v2.1.1",
             "source": {
@@ -4345,6 +4365,52 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "laravel/homestead",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/homestead.git",
+                "reference": "e3b4a1903a2de46e085217a20e61465d18da7b63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/e3b4a1903a2de46e085217a20e61465d18da7b63",
+                "reference": "e3b4a1903a2de46e085217a20e61465d18da7b63",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/process": "~2.3|~3.0"
+            },
+            "bin": [
+                "homestead"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-php-7": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Homestead\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "A virtual machine for web artisans.",
+            "time": "2015-12-21 22:36:28"
         },
         {
             "name": "maximebf/debugbar",
