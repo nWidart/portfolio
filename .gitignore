@@ -1,7 +1,9 @@
 /vendor
 .idea
 composer.phar
-.env.*
+.env
 Thumbs.db
 node_modules
 storage
+Homestead.yaml
+.vagrant

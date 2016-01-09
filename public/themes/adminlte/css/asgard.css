@@ -1,0 +1,63 @@
+ul.notifications-list li {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+}
+.notificationsCounter {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+}
+.notificationIcon {
+  font-size: 30px;
+}
+.removeNotification {
+  z-index: 999;
+  font-size: 12px !important;
+  position: absolute;
+  top: -35px;
+  right: 0px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 > small {
+  position: absolute;
+  bottom: -30px;
+  right: 0px;
+  top: auto;
+}
+footer.main-footer a {
+  cursor: pointer;
+}
+footer.main-footer p.text-muted {
+  margin-bottom: 0;
+}
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+  background: #202227;
+}
+.skin-blue .sidebar-menu > li.header {
+  color: #93AFBB;
+  background: #25272d;
+}
+.sidebar-menu .append {
+  margin-top: -44px;
+}
+.sidebar-menu .treeview-menu .append {
+  margin-top: -30px;
+}
+.skin-blue .sidebar-menu .append:hover,
+.skin-blue .sidebar-menu > li.active > a.append {
+  color: #fff;
+  background: none;
+  border: 0;
+}
+.skin-blue .main-header .logo {
+  border-bottom: 1px solid #202227;
+}
+.checkbox label {
+  padding-left: 0;
+}
+.checkbox label div {
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+/*# sourceMappingURL=asgard.css.map */
