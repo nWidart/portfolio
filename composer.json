@@ -26,10 +26,9 @@
     "asgardcms/translation-module": "~1.0",
     "asgardcms/flatly-theme": "~1.0",
     "asgardcms/adminlte-theme": "~1.0",
-    "laravel/homestead": "^3.0",
-    "asgardcms/blog-module": "^1.12"
   },
   "require-dev": {
+    "laravel/homestead": "^3.0",
     "phpunit/phpunit": "~4.0",
     "phpspec/phpspec": "~2.1",
     "barryvdh/laravel-debugbar": "~2.0"
