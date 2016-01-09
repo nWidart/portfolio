@@ -15,7 +15,7 @@
             <h1>Hi,</h1>
             <p>My name is Nicolas Widart, and I'm a freelance <strong>web developer</strong> and <strong>consultant</strong>. I love the <a href="http://www.laravel.com" target="_blank">Laravel</a> framework and new technologies.</p>
             <p>
-                <a class="btn btn-primary btn-lg" href="">Learn more about me</a>
+                <a class="btn btn-primary btn-lg" href="{{ route('page', ['about']) }}">Learn more about me</a>
                 <a class="btn btn-primary btn-lg" href="">View my work</a>
                 <a class="btn btn-primary btn-lg" href="">Hire Me!</a>
             </p>
