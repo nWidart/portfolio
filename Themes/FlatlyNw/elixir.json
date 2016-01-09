@@ -1,0 +1,7 @@
+{
+  "srcDir": "Themes/Demo",
+  "assetsDir": "resources/",
+  "cssOutput": "assets/css/",
+  "jsOutput": "assets/js/",
+  "bowerDir": "resources/vendor/"
+}
