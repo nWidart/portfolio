@@ -1,6 +1,7 @@
 <?php namespace Modules\Blog\Presenters;
 
 use Laracasts\Presenter\Presenter;
+use League\CommonMark\CommonMarkConverter;
 use Modules\Blog\Entities\Status;
 
 class PostPresenter extends Presenter
@@ -71,5 +72,12 @@ class PostPresenter extends Presenter
                 return 'bg-red';
                 break;
         }
+    }
+
+    public function content()
+    {
+        $converter = new CommonMarkConverter();
+
+        return $converter->convertToHtml($this->entity->content);
     }
 }
