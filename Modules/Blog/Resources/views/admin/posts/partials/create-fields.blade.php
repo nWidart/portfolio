@@ -10,7 +10,8 @@
        {!! $errors->first("$lang.slug", '<span class="help-block">:message</span>') !!}
     </div>
 
-    <textarea class="ckeditor" name="{{$lang}}[content]" rows="10" cols="80">
-        {!! old("{$lang}.content") !!}
-    </textarea>
+    <div class='form-group{{ $errors->has("$lang.slug") ? ' has-error' : '' }}'>
+        {!! Form::label("{$lang}[content]", 'Content') !!}
+        <textarea name="{{$lang}}[content]" class="contentMde" id="content">{!! old("{$lang}.content") !!}</textarea>
+    </div>
 </div>

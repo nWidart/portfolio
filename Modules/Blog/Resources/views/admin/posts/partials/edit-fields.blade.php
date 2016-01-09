@@ -13,7 +13,8 @@
     </div>
 
     <?php $oldContent = isset($post->translate($lang)->content) ? $post->translate($lang)->content : ''; ?>
-    <textarea class="ckeditor" name="{{$lang}}[content]" rows="10" cols="80">
-    {!! old("{$lang}.content", $oldContent) !!}
-    </textarea>
+    <div class='form-group{{ $errors->has("$lang.slug") ? ' has-error' : '' }}'>
+        {!! Form::label("{$lang}[content]", 'Content') !!}
+        <textarea name="{{$lang}}[content]" class="contentMde" id="content">{!! old("{$lang}.content", $oldContent) !!}</textarea>
+    </div>
 </div>

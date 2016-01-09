@@ -99,13 +99,11 @@
 <script src="{{ Module::asset('blog:js/selectize.min.js') }}" type="text/javascript"></script>
 <script src="{{ Module::asset('blog:js/MySelectize.js') }}" type="text/javascript"></script>
 <script type="text/javascript">
-    $(function() {
-        //CKEDITOR.replaceAll(function( textarea, config ) {
-//            console.log(textarea);
-//            config.language = '<?= App::getLocale() ?>';
-//        } );
-    });
     $( document ).ready(function() {
+        var contentMde = new SimpleMDE({
+            element: $(".contentMde")[0],
+            spellChecker: false
+        });
         $(document).keypressAction({
             actions: [
                 { key: 'b', route: "<?= route('admin.blog.post.index') ?>" }
