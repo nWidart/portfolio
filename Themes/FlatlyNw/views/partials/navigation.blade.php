@@ -6,10 +6,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ URL::to('/') }}">{{ Setting::get('core::site-name') }}</a>
+            <a class="navbar-brand" href="{{ route('homepage') }}">{{ Setting::get('core::site-name') }}</a>
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
-            {!! Menu::get('main') !!}
+            <ul class="nav navbar-nav">
+                <li class="{{ on_route('homepage') ? 'active' : '' }}">
+                    <a href="{{ route('homepage') }}">Home</a>
+                </li>
+                <li class="{{ Request::is('about') ? 'active' : '' }}">
+                    <a href="{{ route('page', ['about']) }}">About</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
