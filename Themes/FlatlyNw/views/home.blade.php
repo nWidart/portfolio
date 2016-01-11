@@ -29,7 +29,7 @@
                 <li>
                     <span class="date">{{ $post->created_at->format('d-m-Y') }}</span>
                     <h3>
-                        <a href="{{ route('en.blog.show', [$post->slug]) }}"><?php echo $post->status == 'draft' ? '[Draft]' : ''; ?> {{ $post->title }}</a>
+                        <a href="{{ route('en.blog.slug', [$post->slug]) }}"><?php echo $post->status == 'draft' ? '[Draft]' : ''; ?> {{ $post->title }}</a>
                     </h3>
                 </li>
                 <?php endforeach; ?>
