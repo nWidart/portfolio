@@ -10,7 +10,7 @@ class EloquentBookRepository extends EloquentBaseRepository implements BookRepos
      */
     public function allGoingToRead()
     {
-        return $this->model->where('status_id', 2)->get();
+        return $this->model->where('status_id', 2)->orderBy('created_at', 'desc')->get();
     }
 
     /**
@@ -18,7 +18,7 @@ class EloquentBookRepository extends EloquentBaseRepository implements BookRepos
      */
     public function allHaveRead()
     {
-        return $this->model->where('status_id', 1)->get();
+        return $this->model->where('status_id', 1)->orderBy('created_at', 'desc')->get();
     }
 
     /**
@@ -26,6 +26,6 @@ class EloquentBookRepository extends EloquentBaseRepository implements BookRepos
      */
     public function allCurrentlyReading()
     {
-        return $this->model->where('status_id', 3)->get();
+        return $this->model->where('status_id', 3)->orderBy('created_at', 'desc')->get();
     }
 }
