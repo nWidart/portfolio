@@ -28,7 +28,8 @@
     "asgardcms/adminlte-theme": "~1.0",
     "league/commonmark": "^0.12",
     "graham-campbell/github": "^4.2",
-    "thujohn/twitter": "dev-updated-bindings"
+    "thujohn/twitter": "dev-updated-bindings",
+    "predis/predis": "^1.0"
   },
   "require-dev": {
     "laravel/homestead": "^3.0",
