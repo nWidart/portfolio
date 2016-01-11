@@ -26,7 +26,7 @@ class ActivityServiceProvider extends ServiceProvider
             GithubEventFactory::class
         );
 
-        view()->composer(['projects'], GithubActivityComposer::class);
+        view()->composer(['projects', 'partials.footer'], GithubActivityComposer::class);
     }
 
     /**
