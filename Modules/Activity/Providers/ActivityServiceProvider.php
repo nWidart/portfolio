@@ -1,6 +1,7 @@
 <?php namespace Modules\Activity\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Modules\Activity\Composers\FooterViewComposer;
 use Modules\Activity\Composers\GithubActivityComposer;
 use Modules\Activity\Services\Activity\EventFactoryInterface;
 use Modules\Activity\Services\Activity\Github\GithubEventFactory;
@@ -26,7 +27,8 @@ class ActivityServiceProvider extends ServiceProvider
             GithubEventFactory::class
         );
 
-        view()->composer(['projects', 'partials.footer'], GithubActivityComposer::class);
+        view()->composer(['projects'], GithubActivityComposer::class);
+        view()->composer(['partials.footer'], FooterViewComposer::class);
     }
 
     /**

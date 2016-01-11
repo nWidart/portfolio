@@ -1,4 +1,4 @@
-<?php namespace Nwidart\Services\Twitter;
+<?php namespace Modules\Activity\Services\Twitter;
 
 use Illuminate\Support\Facades\Cache;
 use Thujohn\Twitter\Twitter;
