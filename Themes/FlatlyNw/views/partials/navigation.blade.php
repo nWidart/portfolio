@@ -19,7 +19,7 @@
                 <li class="{{ Request::is('blog*') ? 'active' : '' }}">
                     <a href="{{ route('en.blog') }}">Blog</a>
                 </li>
-                <li class="{{  on_route('projects') ? 'active' : '' }}">
+                <li class="{{ Request::is('projects') ? 'active' : '' }}">
                     <a href="{{ route('page', ['projects']) }}">Projects</a>
                 </li>
             </ul>
