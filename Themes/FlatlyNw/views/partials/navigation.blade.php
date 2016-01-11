@@ -22,6 +22,9 @@
                 <li class="{{ Request::is('projects') ? 'active' : '' }}">
                     <a href="{{ route('page', ['projects']) }}">Projects</a>
                 </li>
+                <li class="{{ Request::is('books') ? 'active' : '' }}">
+                    <a href="{{ route('books.index') }}">Book Library</a>
+                </li>
             </ul>
         </div>
     </div>
