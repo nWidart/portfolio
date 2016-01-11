@@ -15,7 +15,7 @@ class CreateBookStatusesTable extends Migration
 		Schema::create('book__statuses', function(Blueprint $table) {
 			$table->engine = 'InnoDB';
             $table->increments('id');
-            // Your fields
+            $table->string('name');
             $table->timestamps();
 		});
 	}
