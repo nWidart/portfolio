@@ -25,6 +25,9 @@
                 <li class="{{ Request::is('books') ? 'active' : '' }}">
                     <a href="{{ route('books.index') }}">Book Library</a>
                 </li>
+                <li class="{{ Request::is('contact') ? 'active' : '' }}">
+                    <a href="{{ route('page', ['contact']) }}">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
