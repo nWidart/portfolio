@@ -4,7 +4,9 @@ use Laracasts\Flash\Flash;
 use Illuminate\Http\Request;
 use Modules\Book\Entities\Book;
 use Modules\Book\Repositories\BookRepository;
+use Modules\Book\Repositories\StatusRepository;
 use Modules\Core\Http\Controllers\Admin\AdminBaseController;
+use Modules\Media\Repositories\FileRepository;
 
 class BookController extends AdminBaseController
 {
@@ -12,12 +14,17 @@ class BookController extends AdminBaseController
      * @var BookRepository
      */
     private $book;
+    /**
+     * @var StatusRepository
+     */
+    private $status;
 
-    public function __construct(BookRepository $book)
+    public function __construct(BookRepository $book, StatusRepository $status)
     {
         parent::__construct();
 
         $this->book = $book;
+        $this->status = $status;
     }
 
     /**
@@ -27,9 +34,9 @@ class BookController extends AdminBaseController
      */
     public function index()
     {
-        //$books = $this->book->all();
+        $books = $this->book->all();
 
-        return view('book::admin.books.index', compact(''));
+        return view('book::admin.books.index', compact('books'));
     }
 
     /**
@@ -39,7 +46,9 @@ class BookController extends AdminBaseController
      */
     public function create()
     {
-        return view('book::admin.books.create');
+        $statuses = $this->status->all();
+
+        return view('book::admin.books.create', compact('statuses'));
     }
 
     /**
@@ -63,9 +72,12 @@ class BookController extends AdminBaseController
      * @param  Book $book
      * @return Response
      */
-    public function edit(Book $book)
+    public function edit(Book $book, FileRepository $fileRepository)
     {
-        return view('book::admin.books.edit', compact('book'));
+        $bookcover = $fileRepository->findFileByZoneForEntity('image', $book);
+        $statuses = $this->status->all();
+
+        return view('book::admin.books.edit', compact('book', 'statuses', 'bookcover'));
     }
 
     /**

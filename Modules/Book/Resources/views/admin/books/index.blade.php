@@ -28,6 +28,9 @@
                     <table class="data-table table table-bordered table-hover">
                         <thead>
                         <tr>
+                            <th>Name</th>
+                            <th>Author</th>
+                            <th>Status</th>
                             <th>{{ trans('core::core.table.created at') }}</th>
                             <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                         </tr>
@@ -36,6 +39,21 @@
                         <?php if (isset($books)): ?>
                         <?php foreach ($books as $book): ?>
                         <tr>
+                            <td>
+                                <a href="{{ route('admin.book.book.edit', [$book->id]) }}">
+                                    {{ $book->name }}
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{{ route('admin.book.book.edit', [$book->id]) }}">
+                                    {{ $book->author_name }}
+                                </a>
+                            </td>
+                            <td>
+                                <a href="{{ route('admin.book.book.edit', [$book->id]) }}">
+                                    {{ $book->status->name }}
+                                </a>
+                            </td>
                             <td>
                                 <a href="{{ route('admin.book.book.edit', [$book->id]) }}">
                                     {{ $book->created_at }}
@@ -53,6 +71,9 @@
                         </tbody>
                         <tfoot>
                         <tr>
+                            <th>Name</th>
+                            <th>Author</th>
+                            <th>Status</th>
                             <th>{{ trans('core::core.table.created at') }}</th>
                             <th>{{ trans('core::core.table.actions') }}</th>
                         </tr>

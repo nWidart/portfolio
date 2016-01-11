@@ -17,6 +17,7 @@ class CreateBookBooksTable extends Migration
             $table->increments('id');
 			$table->string('name');
 			$table->string('url');
+			$table->string('author_name');
 			$table->integer('status_id')->unsigned();
             $table->timestamps();
 			$table->index('status_id');

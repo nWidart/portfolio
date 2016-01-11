@@ -23,13 +23,17 @@
             <div class="nav-tabs-custom">
                 @include('partials.form-tab-headers')
                 <div class="tab-content">
-                    <?php $i = 0; ?>
-                    @foreach (LaravelLocalization::getSupportedLocales() as $locale => $language)
-                        <?php $i++; ?>
-                        <div class="tab-pane {{ locale() == $locale ? 'active' : '' }}" id="tab_{{ $i }}">
-                            @include('book::admin.books.partials.create-fields', ['lang' => $locale])
-                        </div>
-                    @endforeach
+                    {!! Form::normalInput('name', 'Name', $errors) !!}
+                    {!! Form::normalInput('url', 'Url', $errors) !!}
+                    {!! Form::normalInput('author_name', 'Author Name', $errors) !!}
+                    <div class="form-group">
+                        <label for="status_id">Status</label>
+                        <select name="status_id" id="status_id" class="form-control">
+                            <?php foreach ($statuses as $status): ?>
+                            <option value="{{ $status->id }}">{{ $status->name }}</option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
 
                     <div class="box-footer">
                         <button type="submit" class="btn btn-primary btn-flat">{{ trans('core::core.button.create') }}</button>

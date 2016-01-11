@@ -6,4 +6,9 @@ class Status extends Model
 {
     protected $table = 'book__statuses';
     protected $fillable = ['name'];
+
+    public function books()
+    {
+        return $this->hasMany(Book::class);
+    }
 }

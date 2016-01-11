@@ -23,13 +23,24 @@
             <div class="nav-tabs-custom">
                 @include('partials.form-tab-headers')
                 <div class="tab-content">
-                    <?php $i = 0; ?>
-                    @foreach (LaravelLocalization::getSupportedLocales() as $locale => $language)
-                        <?php $i++; ?>
-                        <div class="tab-pane {{ locale() == $locale ? 'active' : '' }}" id="tab_{{ $i }}">
-                            @include('book::admin.books.partials.edit-fields', ['lang' => $locale])
-                        </div>
-                    @endforeach
+                    {!! Form::normalInput('name', 'Name', $errors, $book) !!}
+                    {!! Form::normalInput('url', 'Url', $errors, $book) !!}
+                    {!! Form::normalInput('author_name', 'Author Name', $errors, $book) !!}
+                    <div class="form-group">
+                        <label for="status_id">Status</label>
+                        <select name="status_id" id="status_id" class="form-control">
+                            <?php foreach ($statuses as $status): ?>
+                                <option value="{{ $status->id }}" {{ $book->status_id === $status->id ? 'selected' : ''}}>
+                                    {{ $status->name }}
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                    @include('media::admin.fields.file-link', [
+                       'entityClass' => 'Modules\\\\Book\\\\Entities\\\\Book',
+                       'entityId' => $book->id,
+                       'zone' => 'bookcover'
+                   ])
 
                     <div class="box-footer">
                         <button type="submit" class="btn btn-primary btn-flat">{{ trans('core::core.button.update') }}</button>
