@@ -15,9 +15,11 @@
         </div>
     </div>
     <div class="row">
-        <h1>{{ $page->title }}</h1>
-        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right" style="width: 20%;"/>
-        {!! $page->body !!}
+        <div class="col-md-12">
+            <h1>{{ $page->title }}</h1>
+            <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right" style="width: 20%;"/>
+            {!! $page->body !!}
+        </div>
     </div>
     <div class="row">
         <div class="col-md-6">

@@ -1,37 +1,39 @@
 <footer>
-    <div class="row dark">
+    <div class="dark">
         <div class="container">
-            <div class="col-lg-6">
-                <?php if (isset($activities)): ?>
-                <h4>Github Activity</h4>
-                <ul class="activity">
-                    <?php foreach($activities as $activity): ?>
-                    <?php if ($activity): ?>
-                        <li>
-                            <img src="{{ $activity['actor_avatar'] }}" alt="" width="40" class="pull-left actorAvatar"/>
-                            <span class="timeAgo">About {{ $activity['time'] }}</span>
-                            <a href="http://github.com/{{ $activity['actor'] }}" target="_blank">{{ $activity['actor'] }}</a>
-                            {{ $activity['verb'] }}
-                            <a href="{{ $activity['target'] }}" target="_blank">{{ $activity['action_object'] }}</a>
-                        </li>
-                    <?php endif; ?>
-                    <?php endforeach; ?>
-                </ul>
-                <?php endif; ?>
-            </div>
-            <div class="col-lg-6">
-                <?php if (isset($twitterPosts)): ?>
-                    <h4>Twitter feed</h4>
+            <div class="row">
+                <div class="col-lg-6">
+                    <?php if (isset($activities)): ?>
+                    <h4>Github Activity</h4>
                     <ul class="activity">
-                        <?php foreach($twitterPosts as $post): ?>
-                        <li>
-                            <span class="timeAgo">{{ $post['time'] }}</span>
-                            {!! $post['tweet'] !!}
-                            <a href="{{ $post['url'] }}" target="_blank">View tweet</a>
-                        </li>
+                        <?php foreach($activities as $activity): ?>
+                        <?php if ($activity): ?>
+                            <li>
+                                <img src="{{ $activity['actor_avatar'] }}" alt="" width="40" class="pull-left actorAvatar"/>
+                                <span class="timeAgo">About {{ $activity['time'] }}</span>
+                                <a href="http://github.com/{{ $activity['actor'] }}" target="_blank">{{ $activity['actor'] }}</a>
+                                {{ $activity['verb'] }}
+                                <a href="{{ $activity['target'] }}" target="_blank">{{ $activity['action_object'] }}</a>
+                            </li>
+                        <?php endif; ?>
                         <?php endforeach; ?>
                     </ul>
-                <?php endif; ?>
+                    <?php endif; ?>
+                </div>
+                <div class="col-lg-6">
+                    <?php if (isset($twitterPosts)): ?>
+                        <h4>Twitter feed</h4>
+                        <ul class="activity">
+                            <?php foreach($twitterPosts as $post): ?>
+                            <li>
+                                <span class="timeAgo">{{ $post['time'] }}</span>
+                                {!! $post['tweet'] !!}
+                                <a href="{{ $post['url'] }}" target="_blank">View tweet</a>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>
