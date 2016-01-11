@@ -8601,6 +8601,7 @@ footer .dark {
   background: #2c3e50;
   color: #fff;
   padding: .5em 0 1em;
+  margin: 0;
 }
 /* Bottom footer */
 .bottom-footer {
