@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df12672647bbefb942b33ca69943d486",
-    "content-hash": "39b27b5a8eabf8f99a1cb5216632bfe6",
+    "hash": "a146dfff0c77e4bc34a937101dabe612",
+    "content-hash": "ff867dd0d367f2c2eb84a680f06a7c3f",
     "packages": [
         {
             "name": "asgardcms/adminlte-theme",
@@ -4400,16 +4400,16 @@
         },
         {
             "name": "thujohn/twitter",
-            "version": "2.1.3",
+            "version": "dev-updated-bindings",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thujohn/twitter.git",
-                "reference": "7a921187081aa2250abb1c5bea3c4c3103b8b4f9"
+                "url": "https://github.com/nWidart/twitter.git",
+                "reference": "2880f490094be07fc05e12cbf25f2c276f1b2b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thujohn/twitter/zipball/7a921187081aa2250abb1c5bea3c4c3103b8b4f9",
-                "reference": "7a921187081aa2250abb1c5bea3c4c3103b8b4f9",
+                "url": "https://api.github.com/repos/nWidart/twitter/zipball/2880f490094be07fc05e12cbf25f2c276f1b2b08",
+                "reference": "2880f490094be07fc05e12cbf25f2c276f1b2b08",
                 "shasum": ""
             },
             "require": {
@@ -4423,7 +4423,6 @@
                     "Thujohn\\Twitter": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4440,7 +4439,10 @@
                 "laravel5",
                 "twitter"
             ],
-            "time": "2015-09-28 21:01:35"
+            "support": {
+                "source": "https://github.com/nWidart/twitter/tree/updated-bindings"
+            },
+            "time": "2015-09-28 10:59:04"
         },
         {
             "name": "typicms/nestablecollection",
@@ -5812,7 +5814,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pingpong/modules": 20
+        "pingpong/modules": 20,
+        "thujohn/twitter": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

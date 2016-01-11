@@ -28,7 +28,7 @@
     "asgardcms/adminlte-theme": "~1.0",
     "league/commonmark": "^0.12",
     "graham-campbell/github": "^4.2",
-    "thujohn/twitter": "^2.1"
+    "thujohn/twitter": "dev-updated-bindings"
   },
   "require-dev": {
     "laravel/homestead": "^3.0",
@@ -40,6 +40,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/nWidart/modules"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nWidart/twitter"
     }
   ],
   "autoload": {
