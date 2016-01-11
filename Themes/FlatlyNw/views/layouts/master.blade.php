@@ -18,6 +18,11 @@
 @include('partials.navigation')
 
 <div class="container">
+    <div class="row">
+        <div class="alert alert-success">
+            {!! Block::get('cta-hire') !!}
+        </div>
+    </div>
     @yield('content')
 </div>
 @include('partials.footer')
