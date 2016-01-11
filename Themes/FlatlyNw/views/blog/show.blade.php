@@ -4,6 +4,10 @@
     {{ $post->title }} | @parent
 @stop
 
+@section('styles')
+    {!! Theme::style('css/prism.css') !!}
+@stop
+
 @section('content')
     <div class="row">
         <div class="col-lg-12">
@@ -25,4 +29,8 @@
         </p>
         </div>
     </div>
+@stop
+
+@section('scripts')
+    {!! Theme::script('js/prism.js') !!}
 @stop
