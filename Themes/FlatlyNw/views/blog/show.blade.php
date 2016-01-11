@@ -19,6 +19,7 @@
 
         {!! $post->present()->content !!}
 
+        {!! Block::get('cta-hire') !!}
         <p>
             <?php if ($previous = $post->present()->previous): ?>
                 <a href="{{ route(locale() . '.blog.slug', [$previous->slug]) }}">Previous</a>

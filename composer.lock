@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9e79b755ea0b279ff3c1f06212706a4",
-    "content-hash": "67a3e4da07bb160300c18a7cb184f4a9",
+    "hash": "294d771a019f9ef7b1ecc84bde5a4db3",
+    "content-hash": "2cd97dd1ab5d8f99a20986d7df8c311b",
     "packages": [
         {
             "name": "asgardcms/adminlte-theme",
@@ -42,6 +42,44 @@
                 "asgard-cms"
             ],
             "time": "2015-12-25 19:53:34"
+        },
+        {
+            "name": "asgardcms/block",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AsgardCms/Block.git",
+                "reference": "1fdb05061ab337b3fd71d032b552dbbd6e94a695"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AsgardCms/Block/zipball/1fdb05061ab337b3fd71d032b552dbbd6e94a695",
+                "reference": "1fdb05061ab337b3fd71d032b552dbbd6e94a695",
+                "shasum": ""
+            },
+            "require": {
+                "asgardcms/core-module": "~1.0",
+                "composer/installers": "~1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.5",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "asgard-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Widart",
+                    "email": "n.widart@gmail.com"
+                }
+            ],
+            "description": "A module to create small blocks of content to display anywhere on the site.",
+            "time": "2015-12-21 16:20:23"
         },
         {
             "name": "asgardcms/core-module",
