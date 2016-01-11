@@ -74,7 +74,7 @@ class BookController extends AdminBaseController
      */
     public function edit(Book $book, FileRepository $fileRepository)
     {
-        $bookcover = $fileRepository->findFileByZoneForEntity('image', $book);
+        $bookcover = $fileRepository->findFileByZoneForEntity('bookcover', $book);
         $statuses = $this->status->all();
 
         return view('book::admin.books.edit', compact('book', 'statuses', 'bookcover'));
