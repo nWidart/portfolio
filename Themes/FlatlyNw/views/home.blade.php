@@ -17,7 +17,7 @@
             <p>
                 <a class="btn btn-primary btn-lg" href="{{ route('page', ['about']) }}">Learn more about me</a>
                 <a class="btn btn-primary btn-lg" href="{{ route('page', ['projects']) }}">View my work</a>
-                <a class="btn btn-primary btn-lg" href="{{ route('page', ['about']) }}">Hire Me!</a>
+                <a class="btn btn-primary btn-lg" href="{{ route('page', ['contact']) }}">Hire Me!</a>
             </p>
         </div>
     </div>
