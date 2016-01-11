@@ -27,9 +27,9 @@ class StatusController extends AdminBaseController
      */
     public function index()
     {
-        //$statuses = $this->status->all();
+        $statuses = $this->status->all();
 
-        return view('book::admin.statuses.index', compact(''));
+        return view('book::admin.statuses.index', compact('statuses'));
     }
 
     /**

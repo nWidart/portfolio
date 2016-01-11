@@ -28,6 +28,7 @@
                     <table class="data-table table table-bordered table-hover">
                         <thead>
                         <tr>
+                            <th>Name</th>
                             <th>{{ trans('core::core.table.created at') }}</th>
                             <th data-sortable="false">{{ trans('core::core.table.actions') }}</th>
                         </tr>
@@ -36,6 +37,11 @@
                         <?php if (isset($statuses)): ?>
                         <?php foreach ($statuses as $status): ?>
                         <tr>
+                            <td>
+                                <a href="{{ route('admin.book.status.edit', [$status->id]) }}">
+                                    {{ $status->name }}
+                                </a>
+                            </td>
                             <td>
                                 <a href="{{ route('admin.book.status.edit', [$status->id]) }}">
                                     {{ $status->created_at }}
@@ -53,6 +59,7 @@
                         </tbody>
                         <tfoot>
                         <tr>
+                            <th>Name</th>
                             <th>{{ trans('core::core.table.created at') }}</th>
                             <th>{{ trans('core::core.table.actions') }}</th>
                         </tr>
