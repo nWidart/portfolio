@@ -21,7 +21,7 @@ return [
     | Specify all the allowed file extensions a user can upload on the server
     |--------------------------------------------------------------------------
     */
-    'allowed-types' => '.jpg,.png',
+    'allowed-types' => '.jpg,.png,.jpeg',
     /*
     |--------------------------------------------------------------------------
     | Determine the max file size upload rate
