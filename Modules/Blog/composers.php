@@ -1,3 +1,3 @@
 <?php
 
-view()->composer('blog.*', 'Modules\Blog\Composers\Frontend\LatestPostsComposer');
+view()->composer(['blog.*', 'home'], 'Modules\Blog\Composers\Frontend\LatestPostsComposer');
