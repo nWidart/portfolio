@@ -26,7 +26,8 @@
     "asgardcms/translation-module": "~1.0",
     "asgardcms/flatly-theme": "~1.0",
     "asgardcms/adminlte-theme": "~1.0",
-    "league/commonmark": "^0.12"
+    "league/commonmark": "^0.12",
+    "graham-campbell/github": "^4.2"
   },
   "require-dev": {
     "laravel/homestead": "^3.0",
