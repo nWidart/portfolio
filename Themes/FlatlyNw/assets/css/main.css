@@ -8695,3 +8695,11 @@ blockquote {
 p.small {
   font-size: 1.1em;
 }
+
+.alert a {
+  color: #fff;
+  text-decoration: underline;
+}
+.alert p {
+  margin: 0;
+}
