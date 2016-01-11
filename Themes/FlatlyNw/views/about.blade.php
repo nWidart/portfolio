@@ -11,6 +11,7 @@
 @section('content')
     <div class="row">
         <h1>{{ $page->title }}</h1>
+        <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right" style="width: 20%;"/>
         {!! $page->body !!}
     </div>
     <div class="row">
@@ -20,12 +21,15 @@
                 <li>PHP</li>
                 <li>Laravel</li>
                 <li>Clean code (SOLID principles, clean architecture, ...)</li>
-                <li>ElasticSearch</li>
+                <li>Elasticsearch</li>
                 <li>Doctrine ORM</li>
+                <li>MongoDb</li>
+                <li>Postgres</li>
+                <li>Redis</li>
+                <li>Beanstalk</li>
                 <li>Domain Driven Design</li>
                 <li>Git/Svn Source Control</li>
                 <li>E-commerce websites</li>
-                <li>Wordpress</li>
                 <li>HTML5/CSS5 & javascript (jQuery)</li>
                 <li>Basic server management & unix commands</li>
             </ul>
@@ -51,13 +55,13 @@
             <h2>Download</h2>
             <ul class="no-padding">
                 <li>
-                    <a href="{{ asset('cv/Nicolas Widart CV_EN.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
+                    <a href="{{ asset('assets/media/nicolas-widart-cv-en.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
                 </li>
                 <li>
-                    <a href="{{ asset('cv/Nicolas Widart CV_FR.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in French</a>
+                    <a href="{{ asset('assets/media/nicolas-widart-cv-fr.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in French</a>
                 </li>
                 <li>
-                    <a href="{{ asset('cv/Nicolas Widart CV_NL.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in Dutch</a>
+                    <a href="{{ asset('assets/media/nicolas-widart-cv-nl.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in Dutch</a>
                 </li>
             </ul>
         </div>
