@@ -156,6 +156,7 @@ return [
 		Illuminate\View\ViewServiceProvider::class,
 
 		GrahamCampbell\GitHub\GitHubServiceProvider::class,
+		Thujohn\Twitter\TwitterServiceProvider::class,
 		/*
 		 * Application Service Providers...
 		 */
@@ -215,5 +216,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
 		'GitHub' => GrahamCampbell\GitHub\Facades\GitHub::class,
+		'Twitter' => Thujohn\Twitter\Facades\Twitter::class
 	],
 ];
