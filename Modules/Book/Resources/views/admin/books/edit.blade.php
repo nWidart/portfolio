@@ -29,7 +29,7 @@
                         <label for="status_id">Status</label>
                         <select name="status_id" id="status_id" class="form-control">
                             <?php foreach ($statuses as $status): ?>
-                                <option value="{{ $status->id }}" {{ $book->status_id === $status->id ? 'selected' : ''}}>
+                                <option value="{{ $status->id }}" {{ $book->status_id == $status->id ? 'selected' : ''}}>
                                     {{ $status->name }}
                                 </option>
                             <?php endforeach; ?>
