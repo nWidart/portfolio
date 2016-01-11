@@ -10,11 +10,6 @@
 
 @section('content')
     <div class="row">
-        <div class="alert alert-success">
-            {!! Block::get('cta-hire') !!}
-        </div>
-    </div>
-    <div class="row">
         <div class="col-md-12">
             <h1>{{ $page->title }}</h1>
             <img src="//www.gravatar.com/avatar/{{ md5('n.widart@gmail.com') }}?size=200" alt="Nicolas Widart Profile picture" class="img-circle pull-right" style="width: 20%;"/>
