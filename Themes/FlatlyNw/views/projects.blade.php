@@ -105,13 +105,15 @@
             <h3>Latest Activity</h3>
             <ul class="activity">
                 <?php foreach($activities as $activity): ?>
-                <li>
-                    <img src="{{ $activity['actor_avatar'] }}" alt="" width="40" class="pull-left actorAvatar"/>
-                    <span class="timeAgo">About {{ $activity['time'] }}</span>
-                    <a href="http://github.com/{{ $activity['actor'] }}" target="_blank">{{ $activity['actor'] }}</a>
-                    {{ $activity['verb'] }}
-                    <a href="{{ $activity['target'] }}" target="_blank">{{ $activity['action_object'] }}</a>
-                </li>
+                <?php if ($activity): ?>
+                    <li>
+                        <img src="{{ $activity['actor_avatar'] }}" alt="" width="40" class="pull-left actorAvatar"/>
+                        <span class="timeAgo">About {{ $activity['time'] }}</span>
+                        <a href="http://github.com/{{ $activity['actor'] }}" target="_blank">{{ $activity['actor'] }}</a>
+                        {{ $activity['verb'] }}
+                        <a href="{{ $activity['target'] }}" target="_blank">{{ $activity['action_object'] }}</a>
+                    </li>
+                <?php endif; ?>
                 <?php endforeach; ?>
             </ul>
             <?php endif; ?>
