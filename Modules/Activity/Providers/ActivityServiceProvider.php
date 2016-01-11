@@ -1,6 +1,9 @@
 <?php namespace Modules\Activity\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Modules\Activity\Composers\GithubActivityComposer;
+use Modules\Activity\Services\Activity\EventFactoryInterface;
+use Modules\Activity\Services\Activity\Github\GithubEventFactory;
 
 class ActivityServiceProvider extends ServiceProvider
 {
@@ -18,7 +21,12 @@ class ActivityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerBindings();
+        $this->app->bind(
+            EventFactoryInterface::class,
+            GithubEventFactory::class
+        );
+
+        view()->composer(['projects'], GithubActivityComposer::class);
     }
 
     /**
@@ -29,10 +37,5 @@ class ActivityServiceProvider extends ServiceProvider
     public function provides()
     {
         return array();
-    }
-
-    private function registerBindings()
-    {
-// add bindings
     }
 }
