@@ -8707,3 +8707,8 @@ p.small {
 .alert p {
   margin: 0;
 }
+
+.book-list  a {
+  height: 100%;
+  display: block;
+}

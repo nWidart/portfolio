@@ -42,7 +42,7 @@
                 <?php foreach($toRead as $book): ?>
                 <li class="pull-left">
                     <?php if ($book->cover): ?>
-                        <a href="{{ $book->url }}" target="_blank">
+                        <a href="{{ $book->url }}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{ $book->name }}">
                             <img src="{{ $book->cover->path }}" alt="{{ $book->name }}" class="book-cover"/>
                         </a>
                     <?php endif; ?>
@@ -51,4 +51,12 @@
             </ul>
         </div>
     </div>
+@stop
+
+@section('scripts')
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 @stop
