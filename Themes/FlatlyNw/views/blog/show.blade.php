@@ -32,8 +32,29 @@
         </p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="disqus_thread"></div>
+            <button class="showDisqus btn btn-primary" style="display: block; margin: 0 auto;">Show comments</button>
+        </div>
+    </div>
 @stop
 
 @section('scripts')
     {!! Theme::script('js/prism.js') !!}
+    <?php if (app()->environment() === 'production'): ?>
+    <script>
+        $(document).ready(function() {
+            $('.showDisqus').on('click', function() {
+                var disqus_shortname = 'nicolaswidart';
+
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+                $(this).fadeOut();
+            });
+        });
+    </script>
+    <?php endif; ?>
 @stop
