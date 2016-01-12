@@ -21,6 +21,6 @@ class BooksController extends Controller
         $reading = $this->book->allCurrentlyReading();
         $toRead = $this->book->allGoingToRead();
 
-        return view('book::public.books', compact('read', 'reading', 'toRead'));
+        return view('book::public.books_v2', compact('read', 'reading', 'toRead'));
     }
 }
