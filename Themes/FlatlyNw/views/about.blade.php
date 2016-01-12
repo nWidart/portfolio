@@ -40,13 +40,13 @@
             <h2>Find me on</h2>
             <ul class="bullet">
                 <li>
-                    <a href="https://github.com/nWidart" target="_blank">Github</a>
+                    <a href="https://github.com/nWidart" target="_blank"><i class="fa fa-github"></i> Github</a>
                 </li>
                 <li>
-                    <a href="http://be.linkedin.com/pub/nicolas-widart/25/7ab/a63" target="_blank">LinkedIn</a>
+                    <a href="http://be.linkedin.com/pub/nicolas-widart/25/7ab/a63" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
                 </li>
                 <li>
-                    <a href="http://twitter.com/nicolaswidart" target="_blank">Twitter</a>
+                    <a href="http://twitter.com/nicolaswidart" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
             </ul>
 
@@ -55,7 +55,7 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Curriculum Vitae Downloads</h2>
-            <ul class="no-padding">
+            <ul class="no-padding" style="margin-left: 23px">
                 <li>
                     <a href="{{ asset('assets/media/nicolas-widart-cv-en.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
                 </li>
