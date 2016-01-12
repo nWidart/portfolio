@@ -33,6 +33,13 @@
                     <a href="http://twitter.com/nicolaswidart" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
             </ul>
+            <h2>Official Information</h2>
+            <ul class="no-padding">
+                <li><strong>Nicolas Widart BVBA</strong></li>
+                <li>BTW <strong>BE0597 712 614</strong></li>
+                <li>IBAN <strong>BE68 7310 3945 5834</strong></li>
+                <li>BIC/SWITFT <strong>KREDBEBB</strong></li>
+            </ul>
         </div>
     </div>
 @stop
