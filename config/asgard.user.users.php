@@ -24,6 +24,7 @@ return [
     */
     'login-columns' => ['email'],
 
+    'allow_user_registration' => false,
     /*
     |--------------------------------------------------------------------------
     | Fillable user fields
