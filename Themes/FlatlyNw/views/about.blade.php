@@ -49,11 +49,6 @@
                     <a href="http://twitter.com/nicolaswidart" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
             </ul>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
             <h2>Curriculum Vitae Downloads</h2>
             <ul class="no-padding" style="margin-left: 23px">
                 <li>
