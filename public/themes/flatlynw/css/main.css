@@ -8601,7 +8601,6 @@ footer .dark {
   background: #2c3e50;
   color: #fff;
   padding: .5em 0 1em;
-  /*margin: 0;*/
 }
 /* Bottom footer */
 .bottom-footer {
@@ -8659,6 +8658,10 @@ ul.bullet li {
   line-height: 2em;
   margin: 0 0 22px;
   font-size: 1.3em;
+}
+.container ul:not(.nav) {
+  font-size: 1.2em;
+  line-height: 1.7em;
 }
 blockquote {
   font-style: italic;

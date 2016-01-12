@@ -8659,6 +8659,10 @@ ul.bullet li {
   margin: 0 0 22px;
   font-size: 1.3em;
 }
+.container ul:not(.nav) {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
 blockquote {
   font-style: italic;
   border-left: 2px solid #2c3e50;
