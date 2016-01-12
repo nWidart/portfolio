@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "asgardcms/adminlte-theme",
-            "version": "1.15.0",
+            "version": "1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AsgardCms/AdminLTE.git",
-                "reference": "10754afb6d8f0be24d5dfca6c95a311fad8f7930"
+                "reference": "92d62a7ef3ac4ab181ce001baa11ae5cc1974b6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AsgardCms/AdminLTE/zipball/10754afb6d8f0be24d5dfca6c95a311fad8f7930",
-                "reference": "10754afb6d8f0be24d5dfca6c95a311fad8f7930",
+                "url": "https://api.github.com/repos/AsgardCms/AdminLTE/zipball/92d62a7ef3ac4ab181ce001baa11ae5cc1974b6f",
+                "reference": "92d62a7ef3ac4ab181ce001baa11ae5cc1974b6f",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
             "keywords": [
                 "asgard-cms"
             ],
-            "time": "2015-12-25 19:53:34"
+            "time": "2016-01-12 12:47:36"
         },
         {
             "name": "asgardcms/block",
@@ -83,16 +83,16 @@
         },
         {
             "name": "asgardcms/core-module",
-            "version": "1.23.0",
+            "version": "1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AsgardCms/Core.git",
-                "reference": "6e4184d061e9e314d1f75324c52abd267bf0b777"
+                "reference": "f3c215130312a0540a47fb9fdb0518208dc8f374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AsgardCms/Core/zipball/6e4184d061e9e314d1f75324c52abd267bf0b777",
-                "reference": "6e4184d061e9e314d1f75324c52abd267bf0b777",
+                "url": "https://api.github.com/repos/AsgardCms/Core/zipball/f3c215130312a0540a47fb9fdb0518208dc8f374",
+                "reference": "f3c215130312a0540a47fb9fdb0518208dc8f374",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "asgardcms",
                 "core"
             ],
-            "time": "2016-01-11 14:30:09"
+            "time": "2016-01-11 15:15:39"
         },
         {
             "name": "asgardcms/dashboard-module",
@@ -489,16 +489,16 @@
         },
         {
             "name": "asgardcms/workshop-module",
-            "version": "1.13.1",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AsgardCms/Workshop.git",
-                "reference": "557436c726552541a268cecf70b4ee4fdf91bb5b"
+                "reference": "da708057de03770493109ab0f431a4de451ba21e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AsgardCms/Workshop/zipball/557436c726552541a268cecf70b4ee4fdf91bb5b",
-                "reference": "557436c726552541a268cecf70b4ee4fdf91bb5b",
+                "url": "https://api.github.com/repos/AsgardCms/Workshop/zipball/da708057de03770493109ab0f431a4de451ba21e",
+                "reference": "da708057de03770493109ab0f431a4de451ba21e",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "modules",
                 "workshop"
             ],
-            "time": "2015-12-24 11:53:01"
+            "time": "2016-01-11 15:46:32"
         },
         {
             "name": "cartalyst/sentinel",
@@ -4580,16 +4580,16 @@
         },
         {
             "name": "venturecraft/revisionable",
-            "version": "1.24.0",
+            "version": "1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VentureCraft/revisionable.git",
-                "reference": "99c27d94f80ae9240cec89c4276f61e748e989a5"
+                "reference": "ab290031e5268cf654d3f3bb906f34c5bf7638fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VentureCraft/revisionable/zipball/99c27d94f80ae9240cec89c4276f61e748e989a5",
-                "reference": "99c27d94f80ae9240cec89c4276f61e748e989a5",
+                "url": "https://api.github.com/repos/VentureCraft/revisionable/zipball/ab290031e5268cf654d3f3bb906f34c5bf7638fd",
+                "reference": "ab290031e5268cf654d3f3bb906f34c5bf7638fd",
                 "shasum": ""
             },
             "require": {
@@ -4624,7 +4624,7 @@
                 "model",
                 "revision"
             ],
-            "time": "2015-12-09 21:48:10"
+            "time": "2016-01-11 22:27:19"
         },
         {
             "name": "vlucas/phpdotenv",
