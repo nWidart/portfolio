@@ -54,7 +54,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <h2>Download</h2>
+            <h2>Curriculum Vitae Downloads</h2>
             <ul class="no-padding">
                 <li>
                     <a href="{{ asset('assets/media/nicolas-widart-cv-en.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
