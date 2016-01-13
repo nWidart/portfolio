@@ -62,8 +62,10 @@
 @section('scripts')
     {!! Theme::script('js/masonry.pkgd.min.js') !!}
     <script>
-        $( document ).load(function() {
+        $( document ).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
+        });
+        $( document ).load(function() {
             $('.grid').masonry({
                 // options
                 itemSelector: '.grid-item',
