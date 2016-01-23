@@ -7,7 +7,13 @@ class PushEvent extends BaseEventClass implements GithubEventInterface
 {
     public function handle($eventData)
     {
-        $link = $this->getCommitLink($this->getUsername($eventData['repo']['name']), $this->getRepositoryName($eventData['repo']['name']), $eventData['payload']['head']);
+        try {
+            $link = $this->getCommitLink($this->getUsername($eventData['repo']['name']),
+                $this->getRepositoryName($eventData['repo']['name']), $eventData['payload']['head']);
+        } catch (\Exception $e) {
+            $link = '';
+        }
+
         return [
             'time' => $this->getDate($eventData['created_at']),
             'actor' => $eventData['actor']['login'],
