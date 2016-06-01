@@ -7,7 +7,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <h1>Blog</h1>
+            <h1>Blog <small><a href="/rss"><i class="fa fa-rss" aria-hidden="true"></i></a></small></h1>
             <?php if (isset($posts)): ?>
             <ul>
                 <?php foreach($posts as $post): ?>
