@@ -10,6 +10,7 @@
         @section('title'){{ Setting::get('core::site-name') }}@show
     </title>
     <link rel="shortcut icon" href="{{ Theme::url('favicon.ico') }}">
+    @include('laravel-feed::feed-links')
 
     {!! Theme::style('css/main.css') !!}
 </head>
