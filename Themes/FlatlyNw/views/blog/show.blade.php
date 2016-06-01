@@ -24,10 +24,10 @@
         </div>
         <p>
             <?php if ($previous = $post->present()->previous): ?>
-                <a href="{{ route(locale() . '.blog.slug', [$previous->slug]) }}">Previous</a>
+                <a href="{{ route(locale() . '.blog.slug', [$previous->slug]) }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i> {{ $previous->title }}</a>
             <?php endif; ?>
             <?php if ($next = $post->present()->next): ?>
-                <a href="{{ route(locale() . '.blog.slug', [$next->slug]) }}">Next</a>
+                <a href="{{ route(locale() . '.blog.slug', [$next->slug]) }}" class="pull-right">{{ $next->title }} <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
             <?php endif; ?>
         </p>
         </div>
