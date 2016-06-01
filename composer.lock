@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "294d771a019f9ef7b1ecc84bde5a4db3",
-    "content-hash": "2cd97dd1ab5d8f99a20986d7df8c311b",
+    "hash": "b2adc1f038975ae74866e4bd83d8dad5",
+    "content-hash": "cf574c33ab953587377963a9b953de3b",
     "packages": [
         {
             "name": "asgardcms/adminlte-theme",
@@ -2815,7 +2815,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/3300cd3d3f30ef1febf73a4739bc52cd9f5d53bc",
+                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/ebd734314f2f36ad9d9444728c19532a4cef5494",
                 "reference": "3300cd3d3f30ef1febf73a4739bc52cd9f5d53bc",
                 "shasum": ""
             },
@@ -3568,6 +3568,61 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2015-07-03 13:48:55"
+        },
+        {
+            "name": "spatie/laravel-feed",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-feed.git",
+                "reference": "d7d187e3cde2c01bdbbcf3ec8f3212a518cd1278"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-feed/zipball/d7d187e3cde2c01bdbbcf3ec8f3212a518cd1278",
+                "reference": "d7d187e3cde2c01bdbbcf3ec8f3212a518cd1278",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.1",
+                "nesbot/carbon": "^1.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.0",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Feed\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jolita Grazyte",
+                    "email": "jolita@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generates rss feed",
+            "homepage": "https://github.com/spatie/laravel-feed",
+            "keywords": [
+                "laravel-feed",
+                "spatie"
+            ],
+            "time": "2016-03-23 14:21:55"
         },
         {
             "name": "swiftmailer/swiftmailer",

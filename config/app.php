@@ -157,6 +157,7 @@ return [
 
 		GrahamCampbell\GitHub\GitHubServiceProvider::class,
 		Thujohn\Twitter\TwitterServiceProvider::class,
+
 		/*
 		 * Application Service Providers...
 		 */
@@ -165,6 +166,7 @@ return [
 		App\Providers\EventServiceProvider::class,
 		App\Providers\RouteServiceProvider::class,
 		App\Providers\ConfigServiceProvider::class,
+		Spatie\Feed\FeedServiceProvider::class,
 
 
 		Modules\Core\Providers\AsgardServiceProvider::class,
