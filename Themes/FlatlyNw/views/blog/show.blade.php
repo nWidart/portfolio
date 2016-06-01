@@ -3,6 +3,9 @@
 @section('title')
     {{ $post->title }} | @parent
 @stop
+@section('meta')
+    <meta name="description" content="{{ str_limit($post->content) }}" />
+@stop
 
 @section('styles')
     {!! Theme::style('css/prism.css') !!}
