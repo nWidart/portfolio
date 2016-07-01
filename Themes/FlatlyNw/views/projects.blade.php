@@ -13,6 +13,10 @@
             </h2>
             <ul class="bullet">
                 <li>
+                    <a href="https://github.com/nWidart/laravel-modules" target="_blank">Laravel-Modules</a><br/>
+                    Module Management In Laravel.
+                </li>
+                <li>
                     <a href="https://github.com/nWidart/DbExporter" target="_blank">DbExporter</a><br/>
                     A Laravel package to export your database structure as a migration file.
                 </li>
