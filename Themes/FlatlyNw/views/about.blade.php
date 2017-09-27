@@ -56,12 +56,6 @@
                 <li>
                     <a href="{{ asset('assets/media/nicolas-widart-cv-en.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in English</a>
                 </li>
-                <li>
-                    <a href="{{ asset('assets/media/nicolas-widart-cv-fr.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in French</a>
-                </li>
-                <li>
-                    <a href="{{ asset('assets/media/nicolas-widart-cv-nl.pdf') }}" target="_blank"><i class="glyphicon glyphicon-circle-arrow-down"></i> My Curriculum Vitae in Dutch</a>
-                </li>
             </ul>
         </div>
     </div>
