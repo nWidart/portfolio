@@ -31,7 +31,7 @@
     "thujohn/twitter": "dev-updated-bindings",
     "predis/predis": "^1.0",
     "asgardcms/block": "^1.11",
-    "spatie/laravel-feed": "^1.0"
+    "spatie/laravel-feed": "1.0.7"
   },
   "require-dev": {
     "laravel/homestead": "^3.0",
