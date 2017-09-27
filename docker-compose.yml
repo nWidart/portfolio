@@ -1,0 +1,54 @@
+version: '2.1'
+services:
+  app:
+    build:
+      context: ./docker/app
+    image: portfolio/app:latest
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - .:/var/www/html:cached
+    networks:
+      - portfolio_net
+
+  redis:
+    build:
+      context: ./docker/redis
+    image: portfolio/redis:latest
+    volumes:
+      - portfolio_redisdata:/data
+    networks:
+      - portfolio_net
+
+  mysql:
+    build:
+      context: ./docker/mysql
+    image: portfolio/mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nicolaswidart
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+    volumes:
+      - portfolio_mysqldata:/var/lib/mysql
+    networks:
+      - portfolio_net
+
+  node:
+    build:
+      context: ./docker/node
+    image: portfolio/node:latest
+    volumes:
+      - .:/var/www/html
+volumes:
+  portfolio_redisdata:
+    driver: local
+  portfolio_mysqldata:
+    driver: local
+
+networks:
+  portfolio_net:
+    driver: bridge
