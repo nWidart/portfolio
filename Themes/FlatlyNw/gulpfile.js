@@ -3,15 +3,15 @@ var shell = require('gulp-shell');
 var elixir = require('laravel-elixir');
 var themeInfo = require('./theme.json');
 
-elixir.extend("stylistPublish", function() {
-    gulp.task("stylistPublish", function() {
-        gulp.src("").pipe(shell("php ../../artisan stylist:publish "+themeInfo.name));
-    });
-
-    this.registerWatcher("stylistPublish", "**/*.less");
-
-    return this.queueTask("stylistPublish");
-});
+// elixir.extend("stylistPublish", function() {
+//     gulp.task("stylistPublish", function() {
+//         gulp.src("").pipe(shell("php ../../artisan stylist:publish "+themeInfo.name));
+//     });
+//
+//     this.registerWatcher("stylistPublish", "**/*.less");
+//
+//     return this.queueTask("stylistPublish");
+// });
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -30,16 +30,15 @@ elixir(function (mix) {
      */
     mix.less([
         "main.less"
-    ])
-    .stylistPublish();
+    ], 'assets/css/main.css');
 
     /**
      * Concat scripts
      */
     mix.scripts([
-        '/vendor/jquery/dist/jquery.js',
-        '/vendor/bootstrap/dist/js/bootstrap.min.js',
-        '/vendor/prism/prism.js',
+        './node_modules/jquery/dist/jquery.min.js',
+        './node_modules/bootstrap-less/js/bootstrap.min.js',
+        './node_modules/prismjs/prism.js',
         '/js/bootswatch.js'
     ], null, 'resources');
 

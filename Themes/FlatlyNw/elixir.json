@@ -1,7 +1,9 @@
 {
   "srcDir": "Themes/Demo",
   "assetsDir": "resources/",
+  "assetsPath": "resources/",
   "cssOutput": "assets/css/",
   "jsOutput": "assets/js/",
-  "bowerDir": "resources/vendor/"
+  "bowerDir": "resources/vendor/",
+  "publicPath": "assets"
 }
