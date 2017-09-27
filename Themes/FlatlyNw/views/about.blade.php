@@ -24,6 +24,8 @@
                 <li>Laravel</li>
                 <li>Clean code (SOLID principles, clean architecture, ...)</li>
                 <li>Elasticsearch</li>
+                <li>VueJS</li>
+                <li>Docker/Vagrant</li>
                 <li>Doctrine ORM</li>
                 <li>MongoDb</li>
                 <li>Postgres</li>
