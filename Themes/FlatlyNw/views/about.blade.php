@@ -21,11 +21,16 @@
             <h2>Skills</h2>
             <ul class="bullet">
                 <li>PHP</li>
+                <li>JavaScript</li>
                 <li>Laravel</li>
+                <li>VueJS</li>
+                <li>React</li>
                 <li>Clean code (SOLID principles, clean architecture, ...)</li>
                 <li>Elasticsearch</li>
-                <li>VueJS</li>
-                <li>Docker/Vagrant</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Vagrant</li>
+                <li>AWS</li>
                 <li>Doctrine ORM</li>
                 <li>MongoDb</li>
                 <li>Postgres</li>
@@ -34,7 +39,7 @@
                 <li>Domain Driven Design</li>
                 <li>Git/Svn Source Control</li>
                 <li>E-commerce websites</li>
-                <li>HTML5/CSS5 & javascript (jQuery)</li>
+                <li>HTML5/CSS5</li>
                 <li>Basic server management & unix commands</li>
             </ul>
         </div>
